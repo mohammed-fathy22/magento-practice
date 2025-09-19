@@ -366,6 +366,7 @@ return [
         'PayPal_BraintreeGiftWrapping' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'PayPal_BraintreeReward' => 1,
-        'Scandiweb_AboutUs' => 1
+        'Scandiweb_AboutUs' => 1,
+        'Scandiweb_CustomProductAttributeSet' => 1
     ]
 ];
