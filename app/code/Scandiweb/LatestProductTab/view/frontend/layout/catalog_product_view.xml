@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+      <head>
+            <css src="Scandiweb_LatestProductTab::css/source/_module.less"/>
+      </head>
+    <body>
+        <referenceBlock name="product.info.main">
+            <block class="Scandiweb\LatestProductTab\Block\Product\LatestProducts"
+                   name="scandiweb.latest.products"
+                   template="Scandiweb_LatestProductTab::latest-products.phtml"
+                   group="detailed_info"
+                   after="-">
+                <arguments>
+                    <argument name="title" xsi:type="string" translate="true">Latest Products</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+    </body>
+</page>

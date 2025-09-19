@@ -525,3 +525,709 @@ The xml was:
 [2025-09-19T13:29:52.687745+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2025-09-19T13:29:52.688209+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2025-09-19T13:29:52.900948+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:25:02.153597+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:25:02.154158+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:25:02.154421+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:25:02.154558+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:25:02.154665+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:25:02.154766+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:25:02.158643+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:25:02.159200+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:25:02.159473+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:25:02.159612+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:25:02.159719+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:25:02.159832+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:25:02.383382+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:25:02.383382+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:26:00.590478+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:26:10.704622+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:26:10.705056+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:27:05.415203+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:27:08.047155+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:27:08.047647+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:27:18.743917+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:27:18.744305+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:27:26.442695+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:27:26.443154+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:27:35.889708+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:27:35.890095+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:27:42.191932+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:27:42.192354+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:27:47.375851+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:27:47.376233+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:27:54.035206+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:27:54.035642+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:27:57.605392+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:27:57.605987+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:27:57.606290+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:27:57.606464+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:27:57.606609+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:27:57.606750+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:27:57.797026+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:28:10.281864+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:28:23.171974+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:28:23.172383+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:28:28.178982+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:28:28.179274+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:28:28.179500+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:28:28.179628+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:28:28.179731+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:28:28.179857+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:28:28.366745+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:28:30.274540+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:28:34.195519+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:28:44.480884+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:28:49.298191+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:28:49.298604+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:28:56.905745+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:28:56.906313+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:29:05.996986+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:29:10.059252+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:29:10.059837+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:29:17.451243+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:29:17.451629+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:29:24.932042+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:29:24.932489+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:29:34.979729+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:29:39.343914+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:29:49.089799+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:29:54.853422+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:29:54.854013+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:30:18.491982+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:30:24.896285+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:30:24.896774+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:30:29.038956+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:30:36.462412+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:30:36.462986+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:31:09.711107+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:32:52.028633+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:33:04.019280+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:33:04.019862+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:33:32.153263+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:36:08.073416+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:37:28.875497+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:37:36.097752+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:38:01.526006+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:38:07.228600+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:38:13.321713+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:38:13.322132+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:38:42.088919+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:39:01.279265+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:39:01.279832+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:40:19.328769+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:40:19.329402+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:40:26.906835+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:40:30.052050+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:40:43.077267+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:40:43.077710+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:40:49.902577+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:41:29.957461+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:41:33.403224+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:41:40.502554+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:41:46.103855+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:41:46.104323+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:42:01.373015+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:42:01.373417+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:42:06.162108+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:42:25.223703+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:42:29.493493+00:00] main.ERROR: Validation Error: Select different sources for origin and destination. [] []
+[2025-09-19T14:42:29.764083+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:42:53.504921+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:42:58.343244+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:45:06.065216+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:45:11.244017+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:46:30.977865+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:46:47.664007+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:47:10.390019+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:47:19.539576+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:48:24.021081+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:48:28.950643+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:48:32.240267+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:48:47.726185+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:49:15.550630+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:49:20.360207+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:49:20.360736+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:50:05.668424+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:50:16.517442+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:50:19.174288+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:50:26.708914+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:50:49.402216+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:50:49.402565+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:50:49.402841+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:50:49.402977+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:50:49.403082+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:50:49.403199+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:50:49.578407+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:50:51.498941+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:50:56.439682+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:50:56.440292+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:51:06.254314+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:51:06.254726+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:51:14.043315+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:51:14.043622+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:51:14.043939+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:51:14.044102+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:51:14.044233+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:51:14.044339+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:51:14.221763+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:51:17.269320+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:52:13.732254+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:53:17.119358+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:53:17.119845+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:53:33.950365+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:53:33.950785+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:53:33.951054+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:53:33.951181+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:53:33.951283+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:53:33.951380+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T14:53:34.137206+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:53:37.740000+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:53:43.341129+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:54:14.449263+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:54:20.681789+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:54:31.353738+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:54:31.354180+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:54:31.523480+00:00] main.INFO: Broken reference: the 'product.reviews' element cannot be added as child to 'product_tabs', because the latter doesn't exist [] []
+[2025-09-19T14:54:31.524075+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T14:54:39.401509+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:54:48.173466+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T14:54:52.468045+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:05:41.644151+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:09:19.834470+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:09:23.708713+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:09:23.709386+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:09:23.709648+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:09:24.291362+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:09:24.355631+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:10:48.589338+00:00] main.ERROR: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+Scandiweb_LatestProductTab schema: current version - none, required version - 1.0.0
+Scandiweb_LatestProductTab data: current version - none, required version - 1.0.0 [] []
+[2025-09-19T16:11:58.561903+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:11:58.562258+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:11:58.562510+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:01.126528+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:01.126927+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:01.127177+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:04.135984+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:04.136355+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:04.136587+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:04.136718+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:04.136832+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:04.136948+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:04.353260+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:12:05.804882+00:00] main.ERROR: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:12:05.805325+00:00] main.CRITICAL: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:12:18.449043+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T16:12:42.626699+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:42.627165+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:42.627471+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:42.627651+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:42.627774+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:42.627902+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:12:42.836158+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:12:43.017138+00:00] main.ERROR: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:12:43.017513+00:00] main.CRITICAL: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:12:43.549147+00:00] main.ERROR: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T16:12:43.549551+00:00] main.CRITICAL: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T16:12:44.412864+00:00] main.ERROR: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:12:44.413270+00:00] main.CRITICAL: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:12:47.937340+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:12:49.418154+00:00] main.ERROR: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T16:12:49.418514+00:00] main.CRITICAL: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T16:12:49.928903+00:00] main.ERROR: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:12:49.929280+00:00] main.CRITICAL: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:12:56.693200+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:12:57.489049+00:00] main.ERROR: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:12:57.489431+00:00] main.CRITICAL: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:12:57.821505+00:00] main.ERROR: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:12:57.821823+00:00] main.CRITICAL: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:13:13.974005+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T16:13:19.958469+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:13:20.730963+00:00] main.ERROR: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:13:20.731306+00:00] main.CRITICAL: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:13:21.042815+00:00] main.ERROR: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:13:21.043118+00:00] main.CRITICAL: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:13:23.624051+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:13:24.395078+00:00] main.ERROR: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T16:13:24.395406+00:00] main.CRITICAL: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T16:13:25.222348+00:00] main.ERROR: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:13:25.222777+00:00] main.CRITICAL: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:13:27.497958+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:27.498335+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:27.498621+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:29.322113+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:29.322415+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:29.322652+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:31.025928+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:31.026231+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:31.026470+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:32.664943+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:13:33.687663+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:33.687968+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:33.688203+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:33.688334+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:33.688438+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:33.688537+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:33.877535+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:13:35.628705+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:35.629050+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:35.629353+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:35.629513+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:35.629626+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:35.629752+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:13:35.816252+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:13:36.850998+00:00] main.ERROR: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T16:13:36.851326+00:00] main.CRITICAL: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T16:13:37.364917+00:00] main.ERROR: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:13:37.365273+00:00] main.CRITICAL: variable @color-text is undefined in file /home/mohammed/magento-practice/var/view_preprocessed/pub/static/frontend/Scandiweb/Wolf/en_US/Scandiweb_LatestProductTab/css/source/_latest-products.less in _latest-products.less on line 13, column 24
+11|             a {
+12|                 font-weight: bold;
+13|                 color: @color-text;
+14|                 text-decoration: none;
+15| 
+16|                 &:hover { [] []
+[2025-09-19T16:19:17.684514+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:17.685070+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:17.685345+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:17.685492+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:17.685605+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:17.685714+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:17.969400+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:19:20.928212+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:19:22.799426+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:22.799842+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:22.800099+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:24.777416+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:24.777817+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:24.778070+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:27.253955+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:19:28.834659+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:28.835002+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:28.835263+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:30.963621+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:19:32.239398+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:32.239692+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:32.239938+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:34.252125+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:19:38.346921+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:19:40.000783+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:40.001108+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:40.001378+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:42.479693+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:19:51.366600+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:51.367013+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:51.367298+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:19:57.313598+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T16:20:03.908964+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:20:03.909284+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:20:03.909509+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:20:05.683722+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:20:07.260762+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:20:07.261067+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:20:07.261300+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:34.250932+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:34.251397+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:34.251677+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:37.311458+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:37.311769+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:37.312026+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:38.555493+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:22:39.235033+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:22:39.477752+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:39.478329+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:39.478766+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:39.479057+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:39.479250+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:39.479427+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:39.702604+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:22:39.930217+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:39.930589+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:39.930922+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:40.444447+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:22:40.884618+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:22:41.225100+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:22:41.533674+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:41.534109+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:41.534419+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:41.534582+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:41.534707+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:41.534840+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:41.683698+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:22:41.769330+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:22:41.817573+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:41.817939+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:41.818222+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:41.818373+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:41.818493+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:41.818607+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:42.017043+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:22:42.035267+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:22:43.987580+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:22:45.634457+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:45.634843+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:45.635146+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:22:47.337575+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:23:22.110081+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:23:22.110492+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:23:22.110839+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:23:54.173548+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:23:54.173972+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:23:54.174245+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:31:25.553209+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:31:25.553645+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:31:25.553898+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:31:28.038761+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:31:28.039072+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:31:28.039314+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:31:30.151181+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:31:30.151580+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:31:30.151894+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:31:34.296061+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:31:37.111623+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:31:37.111924+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:31:37.112156+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:31:41.703874+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:33:09.626052+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:33:09.633909+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:33:09.634378+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:33:09.634588+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:33:09.634753+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:33:09.634931+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:33:09.964979+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:33:12.104154+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T16:33:12.983327+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:33:15.223233+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:33:15.223553+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:33:15.223818+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:33:17.486873+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:34:23.812918+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:34:25.534169+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:34:25.534543+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:34:25.534820+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:35:10.976733+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:35:10.977041+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:35:10.977276+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:35:11.223025+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:35:11.263570+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:35:16.783173+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:35:16.783557+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:35:16.783850+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:35:17.013297+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:35:17.046478+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:35:23.902333+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:35:23.902778+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:35:23.903089+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:35:23.945436+00:00] main.CRITICAL: Class "Scandiweb\LatestProductTab\Block\Product\LatestProducts" does not exist [] []
+[2025-09-19T16:35:24.015444+00:00] main.CRITICAL: Class "Scandiweb\LatestProductTab\Block\Product\LatestProducts" does not exist [] []
+[2025-09-19T16:35:24.015926+00:00] main.ERROR: Invalid block type: Scandiweb\LatestProductTab\Block\Product\LatestProducts [] []
+[2025-09-19T16:36:50.144913+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:36:50.145408+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:36:50.145734+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:36:50.191102+00:00] main.CRITICAL: Class "Scandiweb\LatestProductTab\Block\Product\LatestProducts" does not exist [] []
+[2025-09-19T16:36:50.252230+00:00] main.CRITICAL: Class "Scandiweb\LatestProductTab\Block\Product\LatestProducts" does not exist [] []
+[2025-09-19T16:36:50.252764+00:00] main.ERROR: Invalid block type: Scandiweb\LatestProductTab\Block\Product\LatestProducts [] []
+[2025-09-19T16:37:39.088430+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:37:39.088810+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:37:39.089090+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:37:39.121908+00:00] main.CRITICAL: Class "Scandiweb\LatestProductTab\Block\Product\LatestProducts" does not exist [] []
+[2025-09-19T16:37:39.177103+00:00] main.CRITICAL: Class "Scandiweb\LatestProductTab\Block\Product\LatestProducts" does not exist [] []
+[2025-09-19T16:37:39.177720+00:00] main.ERROR: Invalid block type: Scandiweb\LatestProductTab\Block\Product\LatestProducts [] []
+[2025-09-19T16:38:43.045257+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:38:43.045653+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:38:43.045920+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:38:43.422368+00:00] main.CRITICAL: Class "Scandiweb\LatestProductTab\Block\Product\LatestProducts" does not exist [] []
+[2025-09-19T16:38:43.496292+00:00] main.CRITICAL: Class "Scandiweb\LatestProductTab\Block\Product\LatestProducts" does not exist [] []
+[2025-09-19T16:38:43.496942+00:00] main.ERROR: Invalid block type: Scandiweb\LatestProductTab\Block\Product\LatestProducts [] []
+[2025-09-19T16:40:58.661406+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:40:58.668374+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:40:58.668658+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:41:01.016214+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:41:01.016582+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:41:01.016880+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:41:02.898172+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:41:06.599045+00:00] main.ERROR: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T16:41:06.599456+00:00] main.CRITICAL: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T16:41:12.876120+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:41:12.876565+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:41:12.876844+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:42:16.675786+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:42:16.676188+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:42:16.676417+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:44:48.927903+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:44:48.928277+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:44:48.928513+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:44:49.140006+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:44:49.163661+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:44:52.536543+00:00] main.ERROR: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T16:44:52.536886+00:00] main.CRITICAL: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T16:44:58.252705+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:44:58.253241+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:44:58.253539+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:44:58.469602+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:44:58.490708+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:45:19.456273+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:45:21.300767+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:45:21.301073+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:45:21.301302+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:45:21.500076+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:45:21.520053+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:46:35.033680+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:46:35.034070+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:46:35.034311+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:46:35.034990+00:00] main.INFO: Broken reference: the 'scandiweb.latest.products.tab' tries to reorder itself towards 'content', but their parents are different: 'product.info.details' and 'main' respectively. [] []
+[2025-09-19T16:46:35.257934+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:46:35.281661+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:46:52.301176+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:46:58.052809+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:46:58.053178+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:46:58.053457+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:46:58.054089+00:00] main.INFO: Broken reference: the 'scandiweb.latest.products.tab' tries to reorder itself towards 'content', but their parents are different: 'product.info.details' and 'main' respectively. [] []
+[2025-09-19T16:46:58.246472+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:46:58.265334+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:47:12.839756+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:47:12.840159+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:47:12.840424+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:47:13.056217+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:47:13.077502+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:48:22.785487+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:48:22.785990+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:48:22.786403+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:48:23.055624+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:48:23.073451+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:49:48.795256+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:49:48.795636+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:49:48.795882+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:49:49.018011+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:49:49.039419+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:50:13.926708+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:50:13.927140+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:50:13.927391+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:50:14.154153+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:50:14.178095+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:50:17.487360+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:50:17.487775+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:50:17.488057+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:50:17.709585+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:50:17.731150+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:50:59.235923+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:50:59.236235+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:50:59.236501+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:50:59.435072+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:50:59.453850+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:51:06.364267+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:51:10.435949+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:51:10.436293+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:51:10.436577+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:51:10.436747+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:51:10.436899+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:51:10.437041+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:51:10.615740+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:51:12.486972+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:51:15.148478+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:51:15.148765+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:51:15.149007+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:51:15.343706+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:51:15.360529+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:53:21.423976+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:53:21.424363+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:53:21.424593+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:53:21.653236+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:53:21.674846+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:53:27.774238+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:53:30.534717+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:53:30.535291+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:53:30.535568+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:53:30.737136+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:53:30.754833+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:53:33.750439+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:53:33.750780+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:53:33.751047+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:53:33.948575+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:53:33.965349+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:53:50.753580+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:53:50.753885+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:53:50.754121+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:53:50.956178+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:53:50.974272+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:54:13.242773+00:00] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE1_4944c72530e30c36a708535d7b6a62c0e_page_layout_merged and handles default, catalog_product_view, catalog_product_view_type_simple, catalog_product_view_attribute_set_4, catalog_product_view_id_2, catalog_product_view_sku_asdassss: Please correct the XML data and try again. Element 'block', attribute 'width': The attribute 'width' is not allowed.
+Line: 1329
+The xml was: 
+1324:      <block class="PayPal\Braintree\Block\Paypal\ProductPage" name="paypal.braintree.paylater.message" template="PayPal_Braintree::paypal/messages/pdp.phtml" after="-"/>
+1325:   </referenceContainer>
+1326:</body>
+1327:<body>
+1328:   <referenceContainer name="content">
+1329:      <block class="Scandiweb\LatestProductTab\Block\Product\LatestProducts" name="latest.products" template="Scandiweb_LatestProductTab::latest-products.phtml" after="product.info.details" width="100%"/>
+1330:   </referenceContainer>
+1331:</body>
+1332:<body>
+1333:   <move element="page.main.title" destination="product.info.main" before="-"/>
+ [] []
+[2025-09-19T16:54:13.269556+00:00] main.INFO: Cache file with merged layout: LAYOUT_frontend_STORE1_45155565daa21c9587bf4fcfe2e6ed295_page_layout_merged and handles default, catalog_product_view, catalog_product_view_type_simple, catalog_product_view_attribute_set_4, catalog_product_view_id_2, catalog_product_view_sku_asdassss, cms_noroute_index, cms_page_view, cms_noroute_index_id_no-route: Please correct the XML data and try again. Element 'block', attribute 'width': The attribute 'width' is not allowed.
+Line: 1329
+The xml was: 
+1324:      <block class="PayPal\Braintree\Block\Paypal\ProductPage" name="paypal.braintree.paylater.message" template="PayPal_Braintree::paypal/messages/pdp.phtml" after="-"/>
+1325:   </referenceContainer>
+1326:</body>
+1327:<body>
+1328:   <referenceContainer name="content">
+1329:      <block class="Scandiweb\LatestProductTab\Block\Product\LatestProducts" name="latest.products" template="Scandiweb_LatestProductTab::latest-products.phtml" after="product.info.details" width="100%"/>
+1330:   </referenceContainer>
+1331:</body>
+1332:<body>
+1333:   <move element="page.main.title" destination="product.info.main" before="-"/>
+ [] []
+[2025-09-19T16:54:13.269887+00:00] main.ERROR: Element 'block', attribute 'width': The attribute 'width' is not allowed.
+Line: 1329
+The xml was: 
+1324:      <block class="PayPal\Braintree\Block\Paypal\ProductPage" name="paypal.braintree.paylater.message" template="PayPal_Braintree::paypal/messages/pdp.phtml" after="-"/>
+1325:   </referenceContainer>
+1326:</body>
+1327:<body>
+1328:   <referenceContainer name="content">
+1329:      <block class="Scandiweb\LatestProductTab\Block\Product\LatestProducts" name="latest.products" template="Scandiweb_LatestProductTab::latest-products.phtml" after="product.info.details" width="100%"/>
+1330:   </referenceContainer>
+1331:</body>
+1332:<body>
+1333:   <move element="page.main.title" destination="product.info.main" before="-"/>
+ [] []
+[2025-09-19T16:54:20.122099+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:54:20.122402+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:54:20.122645+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:54:20.334347+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:54:20.352297+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:54:47.183940+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:54:47.184339+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:54:47.184587+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:54:47.418021+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:54:47.441169+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:54:51.065952+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:54:51.066365+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:54:51.066620+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:54:51.291949+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:54:51.312996+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:55:00.974345+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:55:00.974741+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:55:00.975115+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:55:01.193002+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:55:01.215903+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:56:13.239741+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:56:13.240209+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:56:13.240583+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T16:56:13.443354+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T16:56:13.461874+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []

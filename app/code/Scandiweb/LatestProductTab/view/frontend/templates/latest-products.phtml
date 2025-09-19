@@ -1,0 +1,18 @@
+<?php
+
+/** @var \Scandiweb\LatestProductTab\Block\Product\LatestProducts $block */ ?>
+<h2>Latest Products Block</h2>
+<p>If you see this, the block is working!</p>
+
+<div class="latest-products-tab">
+    <ul class="latest-products-list">
+        <?php foreach ($block->getLatestProducts(10) as $product): ?>
+            <li>
+                <a href="<?= $product->getProductUrl() ?>">
+                    <?= $product->getName() ?>
+                </a>
+                <span class="price"><?= $block->getProductPrice($product) ?></span>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+</div>
