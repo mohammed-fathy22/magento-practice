@@ -1,1 +1,0 @@
-/home/mohammed/magento-practice/vendor/magento/module-re-captcha-frontend-ui/view/frontend/web/js/registry.js

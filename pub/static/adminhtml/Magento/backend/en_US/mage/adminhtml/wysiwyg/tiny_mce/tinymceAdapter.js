@@ -1,1 +1,0 @@
-/home/mohammed/magento-practice/lib/web/mage/adminhtml/wysiwyg/tiny_mce/tinymceAdapter.js
