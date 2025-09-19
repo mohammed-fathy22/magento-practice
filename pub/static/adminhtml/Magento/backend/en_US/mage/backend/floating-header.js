@@ -1,0 +1,1 @@
+/home/mohammed/magento-practice/lib/web/mage/backend/floating-header.js

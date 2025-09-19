@@ -6,3 +6,348 @@
 [2025-09-19T05:51:48.616027+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2025-09-19T05:51:48.616145+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2025-09-19T05:51:49.009663+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T06:25:01.677538+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.678227+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.678397+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.678545+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.678670+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.678800+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.678920+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.679048+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.679174+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.679293+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.679493+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.679675+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.679880+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.680068+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.680260+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.680438+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.680754+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.680910+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T06:25:01.681132+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T06:25:01.681289+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T06:25:01.681423+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T06:25:01.681556+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T06:25:01.681692+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-19T06:25:01.681881+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T06:25:01.682019+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T06:25:01.682216+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-19T06:26:09.676819+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.677216+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.677340+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.677453+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.677562+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.677676+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.677782+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.677887+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.677994+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.678138+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.678246+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.678351+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.678474+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.678578+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.678679+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.678792+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.678981+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.679120+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T06:26:09.679276+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T06:26:09.679385+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T06:26:09.679489+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T06:26:09.679592+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T06:26:09.679695+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-19T06:26:09.679831+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T06:26:09.679937+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T06:26:09.680065+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-19T06:26:22.397107+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:26:36.920295+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:26:53.852330+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:27:00.032865+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:27:00.861438+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-09-19T06:27:00.862032+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-09-19T06:27:03.434460+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:27:07.736595+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:27:07.936339+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:27:08.603391+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-09-19T06:27:08.603880+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-09-19T06:28:30.994330+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:29:34.026754+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-09-19T06:29:34.029781+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-09-19T06:31:34.163328+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:31:42.750115+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:32:01.105538+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:32:01.326461+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:32:01.845890+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:32:02.781003+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-09-19T06:32:02.781495+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-09-19T06:32:06.312605+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:32:09.448150+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:32:16.121558+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:32:21.299994+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T06:32:22.300017+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-09-19T06:32:22.302070+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-09-19T07:25:29.542096+00:00] main.ERROR: The default website isn't defined. Set the website and try again.
+#0 /home/mohammed/magento-practice/vendor/magento/module-store/Model/StoreResolver/Website.php(49): Magento\Store\Model\WebsiteRepository->getDefault()
+#1 /home/mohammed/magento-practice/vendor/magento/module-store/Model/StoresData.php(67): Magento\Store\Model\StoreResolver\Website->getAllowedStoreIds()
+#2 /home/mohammed/magento-practice/vendor/magento/module-store/Model/StoreResolver.php(138): Magento\Store\Model\StoresData->getStoresData()
+#3 /home/mohammed/magento-practice/vendor/magento/module-store/Model/StoreResolver.php(97): Magento\Store\Model\StoreResolver->getStoresData()
+#4 /home/mohammed/magento-practice/generated/code/Magento/Store/Model/StoreResolver/Proxy.php(105): Magento\Store\Model\StoreResolver->getCurrentStoreId()
+#5 /home/mohammed/magento-practice/vendor/magento/module-store/Model/StoreManager.php(159): Magento\Store\Model\StoreResolver\Proxy->getCurrentStoreId()
+#6 /home/mohammed/magento-practice/generated/code/Magento/Store/Model/StoreManagerInterface/Proxy.php(129): Magento\Store\Model\StoreManager->getStore()
+#7 /home/mohammed/magento-practice/vendor/magento/module-store/Model/Resolver/Store.php(30): Magento\Store\Model\StoreManagerInterface\Proxy->getStore()
+#8 /home/mohammed/magento-practice/vendor/magento/framework/App/Config/ScopeCodeResolver.php(49): Magento\Store\Model\Resolver\Store->getScope()
+#9 /home/mohammed/magento-practice/vendor/magento/framework/App/Config.php(63): Magento\Framework\App\Config\ScopeCodeResolver->resolve()
+#10 /home/mohammed/magento-practice/vendor/magento/framework/Locale/Resolver.php(110): Magento\Framework\App\Config->getValue()
+#11 /home/mohammed/magento-practice/vendor/magento/framework/Locale/Resolver.php(128): Magento\Framework\Locale\Resolver->getDefaultLocale()
+#12 /home/mohammed/magento-practice/vendor/magento/framework/Locale/Resolver.php(82): Magento\Framework\Locale\Resolver->setLocale()
+#13 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Framework\Locale\Resolver->__construct()
+#14 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#15 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#16 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#17 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#18 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#19 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#20 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#21 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#22 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#23 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#24 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#25 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#26 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#27 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#28 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#29 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#30 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#31 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#32 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#33 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#34 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#35 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#36 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#37 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#38 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#39 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#40 /home/mohammed/magento-practice/vendor/magento/framework/Interception/PluginList/PluginList.php(173): Magento\Framework\ObjectManager\ObjectManager->get()
+#41 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Interceptor.php(144): Magento\Framework\Interception\PluginList\PluginList->getPlugin()
+#42 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\MaintenanceMode\Interceptor->Magento\Framework\Interception\{closure}()
+#43 /home/mohammed/magento-practice/generated/code/Magento/Framework/App/MaintenanceMode/Interceptor.php(32): Magento\Framework\App\MaintenanceMode\Interceptor->___callPlugins()
+#44 /home/mohammed/magento-practice/setup/src/Magento/Setup/Model/Installer.php(1542): Magento\Framework\App\MaintenanceMode\Interceptor->set()
+#45 [internal function]: Magento\Setup\Model\Installer->setMaintenanceMode()
+#46 /home/mohammed/magento-practice/setup/src/Magento/Setup/Model/Installer.php(422): call_user_func_array()
+#47 /home/mohammed/magento-practice/setup/src/Magento/Setup/Console/Command/InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#48 /home/mohammed/magento-practice/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#49 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#50 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#51 /home/mohammed/magento-practice/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#52 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#53 /home/mohammed/magento-practice/bin/magento(23): Symfony\Component\Console\Application->run()
+#54 {main} [] []
+[2025-09-19T07:25:31.082612+00:00] main.ERROR: The default website isn't defined. Set the website and try again.
+#0 /home/mohammed/magento-practice/vendor/magento/module-store/Model/StoreResolver/Website.php(49): Magento\Store\Model\WebsiteRepository->getDefault()
+#1 /home/mohammed/magento-practice/vendor/magento/module-store/Model/StoresData.php(67): Magento\Store\Model\StoreResolver\Website->getAllowedStoreIds()
+#2 /home/mohammed/magento-practice/vendor/magento/module-store/Model/StoreResolver.php(138): Magento\Store\Model\StoresData->getStoresData()
+#3 /home/mohammed/magento-practice/vendor/magento/module-store/Model/StoreResolver.php(97): Magento\Store\Model\StoreResolver->getStoresData()
+#4 /home/mohammed/magento-practice/generated/code/Magento/Store/Model/StoreResolver/Proxy.php(105): Magento\Store\Model\StoreResolver->getCurrentStoreId()
+#5 /home/mohammed/magento-practice/vendor/magento/module-store/Model/StoreManager.php(159): Magento\Store\Model\StoreResolver\Proxy->getCurrentStoreId()
+#6 /home/mohammed/magento-practice/generated/code/Magento/Store/Model/StoreManagerInterface/Proxy.php(129): Magento\Store\Model\StoreManager->getStore()
+#7 /home/mohammed/magento-practice/vendor/magento/module-store/Model/Resolver/Store.php(30): Magento\Store\Model\StoreManagerInterface\Proxy->getStore()
+#8 /home/mohammed/magento-practice/vendor/magento/framework/App/Config/ScopeCodeResolver.php(49): Magento\Store\Model\Resolver\Store->getScope()
+#9 /home/mohammed/magento-practice/vendor/magento/framework/App/Config.php(63): Magento\Framework\App\Config\ScopeCodeResolver->resolve()
+#10 /home/mohammed/magento-practice/vendor/magento/framework/Locale/Resolver.php(110): Magento\Framework\App\Config->getValue()
+#11 /home/mohammed/magento-practice/vendor/magento/framework/Locale/Resolver.php(128): Magento\Framework\Locale\Resolver->getDefaultLocale()
+#12 /home/mohammed/magento-practice/vendor/magento/framework/Locale/Resolver.php(82): Magento\Framework\Locale\Resolver->setLocale()
+#13 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Framework\Locale\Resolver->__construct()
+#14 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#15 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#16 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#17 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#18 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#19 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#20 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#21 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#22 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#23 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#24 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#25 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#26 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#27 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#28 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#29 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#30 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#31 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#32 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#33 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#34 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#35 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#36 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#37 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#38 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#39 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#40 /home/mohammed/magento-practice/vendor/magento/framework/Interception/PluginList/PluginList.php(173): Magento\Framework\ObjectManager\ObjectManager->get()
+#41 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Interceptor.php(144): Magento\Framework\Interception\PluginList\PluginList->getPlugin()
+#42 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\MaintenanceMode\Interceptor->Magento\Framework\Interception\{closure}()
+#43 /home/mohammed/magento-practice/generated/code/Magento/Framework/App/MaintenanceMode/Interceptor.php(32): Magento\Framework\App\MaintenanceMode\Interceptor->___callPlugins()
+#44 /home/mohammed/magento-practice/setup/src/Magento/Setup/Model/Installer.php(1542): Magento\Framework\App\MaintenanceMode\Interceptor->set()
+#45 [internal function]: Magento\Setup\Model\Installer->setMaintenanceMode()
+#46 /home/mohammed/magento-practice/setup/src/Magento/Setup/Model/Installer.php(422): call_user_func_array()
+#47 /home/mohammed/magento-practice/setup/src/Magento/Setup/Console/Command/InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#48 /home/mohammed/magento-practice/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#49 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#50 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#51 /home/mohammed/magento-practice/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#52 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#53 /home/mohammed/magento-practice/bin/magento(23): Symfony\Component\Console\Application->run()
+#54 {main} [] []
+[2025-09-19T07:26:44.678530+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
+[2025-09-19T07:29:51.761953+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:29:51.764381+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:29:51.764918+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:29:51.765271+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:29:51.765479+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:29:51.765650+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:29:52.355723+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T07:29:52.763834+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:29:52.764383+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:29:52.764723+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:29:52.764941+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:29:52.765130+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:29:52.765277+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:29:53.051335+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T07:29:55.684974+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.685512+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.685772+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.686029+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.686216+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.686408+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.686586+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.686765+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.686957+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.687135+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.687314+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.687493+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.687671+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.687860+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.688042+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.688220+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.688515+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.688701+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-09-19T07:29:55.688972+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T07:29:55.689151+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T07:29:55.689331+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T07:29:55.689506+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T07:29:55.689683+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-09-19T07:29:55.689923+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T07:29:55.690096+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-09-19T07:29:55.690331+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-09-19T07:30:01.318227+00:00] main.ERROR: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T07:30:01.318603+00:00] main.CRITICAL: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T07:30:19.012964+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:30:48.480025+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:30:48.480720+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:30:48.481007+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:30:48.481152+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:30:48.481265+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:30:48.481375+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:30:48.803389+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T07:30:50.576220+00:00] main.ERROR: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T07:30:50.576677+00:00] main.CRITICAL: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T07:30:54.219105+00:00] main.ERROR: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T07:30:54.219477+00:00] main.CRITICAL: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T07:30:56.931479+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:30:56.931833+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:30:56.932125+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:30:56.932283+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:30:56.932406+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:30:56.932522+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:30:57.145697+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T07:31:01.070757+00:00] main.ERROR: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T07:31:01.071413+00:00] main.CRITICAL: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T07:31:05.961530+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:31:05.962180+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:31:05.962566+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:31:05.962820+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:31:05.963018+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:31:05.963199+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:31:06.396248+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T07:31:25.051019+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:31:32.462595+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:31:33.400471+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-09-19T07:31:33.402144+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-09-19T07:31:41.414725+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:31:49.846715+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:32:02.095118+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:32:16.739631+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:32:21.238535+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:32:47.337733+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:33:15.287001+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:33:19.590522+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:19.590979+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:19.591525+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:19.591729+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:19.592092+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:19.592228+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:19.941614+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T07:33:23.918531+00:00] main.ERROR: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T07:33:23.918904+00:00] main.CRITICAL: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T07:33:25.000637+00:00] main.ERROR: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T07:33:25.001001+00:00] main.CRITICAL: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T07:33:28.277822+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:28.278293+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:28.278663+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:28.278947+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:28.279111+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:28.279257+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:28.509426+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T07:33:32.300518+00:00] main.ERROR: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T07:33:32.300949+00:00] main.CRITICAL: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T07:33:36.017917+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:36.018839+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:36.019236+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:36.019475+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:36.019658+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:36.019906+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:33:36.328231+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T07:33:50.212033+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:33:55.033027+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:34:02.555437+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:34:10.087925+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:34:17.875870+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:34:43.698885+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:34:49.483414+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:34:49.483850+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:34:49.484164+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:34:49.484357+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:34:49.484507+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:34:49.484657+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:34:49.782057+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T07:34:53.179711+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:34:53.180120+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:34:53.180439+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:34:53.180624+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:34:53.180773+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:34:53.180936+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:34:53.418053+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T07:35:04.552561+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:35:31.138522+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:35:42.235578+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:36:11.671297+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:36:15.461568+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:36:41.239900+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:36:46.092997+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:36:46.093491+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:36:46.093791+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:36:46.093958+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:36:46.094074+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:36:46.094210+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:36:46.402064+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-19T07:37:57.118533+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:38:04.903090+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:38:17.487252+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:38:21.155163+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:38:46.498061+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-19T07:38:56.257044+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:38:56.257396+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:38:56.257649+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:38:56.257788+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:38:56.257923+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:38:56.258026+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T07:38:56.552135+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []

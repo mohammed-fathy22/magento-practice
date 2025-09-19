@@ -1,0 +1,1 @@
+/home/mohammed/magento-practice/vendor/magento/module-admin-analytics/view/adminhtml/web/js/modal/component.js

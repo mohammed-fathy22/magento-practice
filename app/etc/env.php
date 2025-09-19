@@ -1,14 +1,14 @@
 <?php
 return [
-    'backend' => [
-        'frontName' => 'admin'
-    ],
     'remote_storage' => [
         'driver' => 'file'
     ],
+    'backend' => [
+        'frontName' => 'admin'
+    ],
     'cache' => [
         'graphql' => [
-            'id_salt' => 'Iw1cc46xfKPktnXMDbcWriHfKnFhJhyo'
+            'id_salt' => 'j2EkhhJj3v3LBfzbBllscAgHpy6y4p7R'
         ],
         'frontend' => [
             'default' => [
@@ -120,6 +120,6 @@ return [
         'localhost'
     ],
     'install' => [
-        'date' => 'Fri, 19 Sep 2025 05:48:11 +0000'
+        'date' => 'Fri, 19 Sep 2025 07:27:06 +0000'
     ]
 ];

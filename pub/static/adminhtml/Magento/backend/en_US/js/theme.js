@@ -1,0 +1,1 @@
+/home/mohammed/magento-practice/vendor/magento/theme-adminhtml-backend/web/js/theme.js
