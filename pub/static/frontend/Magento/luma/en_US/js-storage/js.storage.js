@@ -1,1 +1,0 @@
-/home/mohammed/magento-practice/lib/web/js-storage/js.storage.js
