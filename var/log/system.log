@@ -374,3 +374,7 @@
 [2025-09-19T07:59:50.934385+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
 [2025-09-19T07:59:52.649196+00:00] main.ERROR: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
 [2025-09-19T07:59:52.649940+00:00] main.CRITICAL: The "/home/mohammed/magento-practice/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-09-19T08:31:35.761558+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T08:31:35.762348+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T08:31:35.762778+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-09-19T08:31:36.136401+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []

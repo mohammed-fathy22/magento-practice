@@ -30,21 +30,21 @@ class AddAboutUsPage implements DataPatchInterface
     {
         $identifier = 'about-us';
 
-        // Check if the page already exists
+        // Check if page already exists
         $searchCriteria = $this->searchCriteriaBuilder
             ->addFilter('identifier', $identifier, 'eq')
             ->create();
         $existingPages = $this->pageRepository->getList($searchCriteria)->getItems();
 
         if (!empty($existingPages)) {
-            return; // Page already exists, skip
+            return; // Page already exists, do nothing
         }
 
-        // Create new page
+        // Only create a basic About Us page, template is handled by layout XML
         $pageData = [
             'title' => 'About Us',
             'identifier' => $identifier,
-            'content' => '<h1>About Our Company</h1><p>Welcome to our store!</p>',
+            'content' => '', // leave empty, template will render content
             'page_layout' => '1column',
             'is_active' => 1,
             'stores' => [0], // 0 = all stores
@@ -56,7 +56,7 @@ class AddAboutUsPage implements DataPatchInterface
             $page->setData($pageData);
             $this->pageRepository->save($page);
         } catch (LocalizedException $e) {
-            // Log or handle error
+            // Optionally log error
         }
     }
 
