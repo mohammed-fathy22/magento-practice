@@ -1,15 +1,1 @@
-define([
-    'underscore'
-], function (_) {
-    'use strict';
-
-    /**
-     * Remove any non-digit characters from string.
-     *
-     * @param {string} value
-     * @return {string}
-     */
-    return function (value) {
-        return _.isString(value) ? value.replace(/\D/g, '') : '';
-    };
-});
+/home/mohammed/magento-practice/vendor/paypal/module-braintree-core/view/frontend/web/js/helper/remove-non-digit-characters.js

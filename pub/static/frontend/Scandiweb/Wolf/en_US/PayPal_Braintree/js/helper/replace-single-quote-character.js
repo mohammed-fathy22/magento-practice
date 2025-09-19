@@ -1,15 +1,1 @@
-define([
-    'underscore'
-], function (_) {
-    'use strict';
-
-    /**
-     * Replace single quote character to HTML entity string.
-     *
-     * @param {string} value
-     * @return {string}
-     */
-    return function (value) {
-        return _.isString(value) ? value.replace(/'/g, '&apos;') : '';
-    };
-});
+/home/mohammed/magento-practice/vendor/paypal/module-braintree-core/view/frontend/web/js/helper/replace-single-quote-character.js

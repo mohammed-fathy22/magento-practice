@@ -20513,6 +20513,7 @@
   'SalesShipmentSendEmailsCron' => false,
   'Scandiweb\\AboutUs\\Setup\\Patch\\Data\\AddAboutUsPage' => false,
   'Scandiweb\\CustomProductAttributeSet\\Setup\\Patch\\Data\\AddCarAttributeSet' => false,
+  'Scandiweb\\LatestProductTab\\Block\\Product\\LatestProducts' => false,
   'Scandiweb\\UpdatingContactUsPage\\Block\\Footer' => false,
   'SectionInvalidationConfigData' => false,
   'SectionInvalidationConfigReader' => false,

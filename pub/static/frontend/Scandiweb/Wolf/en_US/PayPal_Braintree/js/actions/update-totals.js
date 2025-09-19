@@ -1,14 +1,1 @@
-define([
-    'mage/storage',
-    'PayPal_Braintree/js/helper/get-api-url'
-], function (storage, getApiUrl) {
-    'use strict';
-
-    // TODO: Remove need for storeCode to be passed in.
-    return function (payload, storeCode, quoteId) {
-        return storage.post(
-            getApiUrl("totals-information", storeCode, quoteId),
-            JSON.stringify(payload)
-        );
-    };
-});
+/home/mohammed/magento-practice/vendor/paypal/module-braintree-core/view/frontend/web/js/actions/update-totals.js
