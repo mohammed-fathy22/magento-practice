@@ -3390,6 +3390,7 @@
           'retriable_operation_listing_data_source' => 'Magento\\AsynchronousOperations\\Ui\\Component\\DataProvider\\Operation\\Retriable\\SearchResult',
           'failed_operation_modal_listing_data_source' => 'Magento\\AsynchronousOperations\\Ui\\Component\\DataProvider\\Operation\\Failed\\SearchResult',
           'retriable_operation_modal_listing_data_source' => 'Magento\\AsynchronousOperations\\Ui\\Component\\DataProvider\\Operation\\Retriable\\SearchResult',
+          'scandiweb_popup_listing_data_source' => 'Scandiweb\\Popup\\Model\\ResourceModel\\Popup\\Grid\\Collection',
           'braintree_report_data_source' => 'PayPal\\Braintree\\Model\\Report\\TransactionsCollection',
         ),
       ),
@@ -126243,6 +126244,7 @@ Line: %line%
           'retriable_operation_listing_data_source' => 'Magento\\AsynchronousOperations\\Ui\\Component\\DataProvider\\Operation\\Retriable\\SearchResult',
           'failed_operation_modal_listing_data_source' => 'Magento\\AsynchronousOperations\\Ui\\Component\\DataProvider\\Operation\\Failed\\SearchResult',
           'retriable_operation_modal_listing_data_source' => 'Magento\\AsynchronousOperations\\Ui\\Component\\DataProvider\\Operation\\Retriable\\SearchResult',
+          'scandiweb_popup_listing_data_source' => 'Scandiweb\\Popup\\Model\\ResourceModel\\Popup\\Grid\\Collection',
         ),
       ),
     ),
@@ -227522,8 +227524,8 @@ Line: %line%
         array (
           'application' => 
           array (
-            0 => '#^(?:/home/mohammed/magento\\-practice/vendor/(?:magento/(?:module-remote-storage|module-aws-s3|module-catalog|module-require-js|module-backend|module-authorization|module-asynchronous-operations|module-media-storage|module-sales-sequence|module-bundle|module-sales|module-captcha|module-checkout|module-customer|module-integration|module-user|module-deploy|module-config|module-directory|module-store|module-eav|module-ui|module-variable|module-cms|module-email|module-widget|module-catalog-inventory|module-csp|module-theme|module-downloadable|module-rss|module-newsletter|module-wishlist|module-review|module-reports|module-page-cache|module-tax|module-quote|module-inventory-api|module-payment|module-webapi|module-indexer|module-graph-ql|module-catalog-search|module-inventory-sales-api|module-search|module-eav-graph-ql|module-inventory-configuration-api|module-re-captcha-validation-api|module-inventory-catalog-api|module-graph-ql-resolver-cache|module-inventory|module-vault|module-contact|module-shipping|module-advanced-search|module-catalog-graph-ql|module-rule|services-connector|module-gift-message|module-analytics|module-re-captcha-ui|module-instant-purchase|module-inventory-source-selection-api|module-query-xml|module-multishipping|module-media-gallery-api|module-services-id|module-checkout-agreements|module-graph-ql-cache|module-inventory-reservations-api|module-catalog-customer-graph-ql|module-import-export|module-inventory-source-deduction-api|module-catalog-rule|module-customer-graph-ql|module-re-captcha-webapi-api|module-configurable-product|module-inventory-multi-dimensional-indexer-api|module-gift-message-graph-ql|module-sales-inventory|module-inventory-sales|module-quote-graph-ql|module-graph-ql-server|module-sales-rule|module-inventory-indexer|module-msrp|module-payment-services-paypal|module-grouped-product|module-adobe-ims-api|module-admin-graph-ql-server|module-services-id-graph-ql-server|module-catalog-import-export|module-re-captcha-frontend-ui|module-inventory-in-store-pickup-api|module-paypal|module-media-content-api|module-data-exporter|module-login-as-customer-api|module-adobe-stock-client-api|module-inventory-in-store-pickup-shipping-api|module-media-gallery-synchronization-api|module-service-proxy|module-inventory-configuration|module-adobe-ims|module-catalog-url-rewrite|module-services-id-layout|module-security|module-adobe-stock-asset-api|module-inventory-distance-based-source-selection-api|module-inventory-in-store-pickup-sales-api|module-catalog-widget|module-jwt-user-token|module-payment-services-base|module-re-captcha-webapi-graph-ql|module-url-rewrite|module-admin-adobe-ims|module-adobe-stock-image-api|module-inventory-catalog|module-inventory-low-quantity-notification-api|module-media-gallery-metadata-api|module-media-gallery-ui-api|module-page-builder|module-re-captcha-admin-ui|module-re-captcha-webapi-ui|module-sales-graph-ql|module-cookie|module-inventory-admin-ui|module-inventory-catalog-admin-ui|module-inventory-catalog-search|module-inventory-in-store-pickup|module-page-builder-analytics|module-cron|module-media-content-synchronization-api|module-sales-data-exporter|module-store-data-exporter|module-two-factor-auth|module-cms-graph-ql|module-developer|module-elasticsearch|module-inventory-catalog-frontend-ui|module-inventory-export-stock-api|module-inventory-in-store-pickup-quote|module-inventory-in-store-pickup-sales|module-inventory-low-quantity-notification|module-login-as-customer|module-media-gallery|module-media-gallery-ui|module-new-relic-reporting|module-order-cancellation|module-product-alert|module-re-captcha-checkout|module-swagger|module-url-rewrite-graph-ql|module-bundle-import-export|module-payment-services-dashboard|module-saas-common|module-admin-adobe-ims-two-factor-auth|module-adobe-stock-admin-ui|module-adobe-stock-asset|module-adobe-stock-client|module-adobe-stock-image|module-adobe-stock-image-admin-ui|module-application-performance-monitor|module-async-config|module-downloadable-graph-ql|module-encryption-key|module-google-analytics|module-google-gtag|module-login-as-customer-assistance|module-login-as-customer-frontend-ui|module-media-gallery-renditions-api|module-payment-services-paypal-graph-ql|module-payment-services-saas-export|module-re-captcha-version-3-invisible|module-release-notification|module-robots|module-send-friend|module-store-graph-ql|module-swatches|module-weee|module-aws-s3-page-builder|module-backup|module-catalog-page-builder-analytics|module-cms-page-builder-analytics|module-cms-url-rewrite|module-inventory-advanced-checkout|module-inventory-bundle-import-export|module-inventory-bundle-product|module-inventory-bundle-product-admin-ui|module-inventory-bundle-product-indexer|module-inventory-cache|module-inventory-catalog-rule|module-inventory-catalog-search-bundle-product|module-inventory-catalog-search-configurable-product|module-inventory-configurable-product|module-inventory-configurable-product-admin-ui|module-inventory-configurable-product-frontend-ui|module-inventory-configurable-product-indexer|module-inventory-distance-based-source-selection|module-inventory-distance-based-source-selection-admin-ui|module-inventory-elasticsearch|module-inventory-export-stock|module-inventory-graph-ql|module-inventory-grouped-product|module-inventory-grouped-product-admin-ui|module-inventory-grouped-product-indexer|module-inventory-import-export|module-inventory-in-store-pickup-admin-ui|module-inventory-in-store-pickup-frontend|module-inventory-in-store-pickup-graph-ql|module-inventory-in-store-pickup-multishipping|module-inventory-in-store-pickup-quote-graph-ql|module-inventory-in-store-pickup-sales-admin-ui|module-inventory-in-store-pickup-shipping|module-inventory-in-store-pickup-shipping-admin-ui|module-inventory-in-store-pickup-webapi-extension|module-inventory-low-quantity-notification-admin-ui|module-inventory-product-alert|module-inventory-quote-graph-ql|module-inventory-requisition-list|module-inventory-reservation-cli|module-inventory-reservations|module-inventory-sales-admin-ui|module-inventory-sales-async-order|module-inventory-sales-frontend-ui|module-inventory-setup-fixture-generator|module-inventory-shipping|module-inventory-shipping-admin-ui|module-inventory-source-selection|module-inventory-swatches-frontend-ui|module-inventory-visual-merchandiser|module-inventory-wishlist|module-page-builder-admin-analytics|module-page-builder-image-attribute|module-re-captcha-checkout-sales-rule|module-re-captcha-contact|module-re-captcha-customer|module-re-captcha-migration|module-re-captcha-newsletter|module-re-captcha-paypal|module-re-captcha-resend-confirmation-email|module-re-captcha-review|module-re-captcha-send-friend|module-re-captcha-store-pickup|module-re-captcha-user|module-re-captcha-validation|module-re-captcha-version-2-checkbox|module-re-captcha-version-2-invisible|module-re-captcha-webapi-rest|module-re-captcha-wishlist|module-securitytxt|module-translation|module-admin-analytics|module-admin-notification|module-advanced-pricing-import-export|module-amqp|module-application-performance-monitor-new-relic|module-bundle-graph-ql|module-cache-invalidate|module-cardinal-commerce|module-catalog-analytics|module-catalog-cms-graph-ql|module-catalog-inventory-graph-ql|module-catalog-rule-configurable|module-catalog-rule-graph-ql|module-catalog-url-rewrite-graph-ql|module-checkout-agreements-graph-ql|module-cms-url-rewrite-graph-ql|module-compare-list-graph-ql|module-configurable-import-export|module-configurable-product-graph-ql|module-configurable-product-sales|module-contact-graph-ql|module-currency-symbol|module-customer-analytics|module-customer-downloadable-graph-ql|module-customer-import-export|module-dhl|module-directory-graph-ql|module-downloadable-import-export|module-elasticsearch-8|module-fedex|module-google-adwords|module-google-optimizer|module-graph-ql-new-relic|module-grouped-catalog-inventory|module-grouped-import-export|module-grouped-product-graph-ql|module-integration-graph-ql|module-jwt-framework-adapter|module-layered-navigation|module-login-as-customer-admin-ui|module-login-as-customer-graph-ql|module-login-as-customer-log|module-login-as-customer-page-cache|module-login-as-customer-quote|module-login-as-customer-sales|module-marketplace|module-media-content|module-media-content-catalog|module-media-content-cms|module-media-content-synchronization|module-media-content-synchronization-catalog|module-media-content-synchronization-cms|module-media-gallery-catalog|module-media-gallery-catalog-integration|module-media-gallery-catalog-ui|module-media-gallery-cms-ui|module-media-gallery-integration|module-media-gallery-metadata|module-media-gallery-renditions|module-media-gallery-synchronization|module-media-gallery-synchronization-metadata|module-message-queue|module-msrp-configurable-product|module-msrp-grouped-product|module-mysql-mq|module-newsletter-graph-ql|module-offline-payments|module-offline-shipping|module-open-search|module-order-cancellation-graph-ql|module-order-cancellation-ui|module-payment-graph-ql|module-paypal-captcha|module-paypal-graph-ql|module-persistent|module-product-video|module-quote-analytics|module-quote-bundle-options|module-quote-configurable-options|module-quote-downloadable-links|module-related-product-graph-ql|module-review-analytics|module-review-graph-ql|module-sales-analytics|module-sales-rule-graph-ql|module-sample-data|module-send-friend-graph-ql|module-sitemap|module-swagger-webapi|module-swagger-webapi-async|module-swatches-graph-ql|module-swatches-layered-navigation|module-tax-graph-ql|module-tax-import-export|module-theme-graph-ql|module-ups|module-usps|module-vault-graph-ql|module-version|module-webapi-async|module-webapi-security|module-weee-graph-ql|module-wishlist-analytics|module-wishlist-graph-ql)|paypal/(?:module-braintree-core|module-braintree-customer-balance|module-braintree-gift-card|module-braintree-gift-card-account|module-braintree-gift-wrapping|module-braintree-graph-ql|module-braintree-reward)|markshust/(?:magento2-module-disabletwofactorauth))|/home/mohammed/magento\\-practice/app/code/(?:Scandiweb/(?:CustomProductAttributeSet|LatestProductTab|UpdatingContactUsPage|AboutUs)))/Test#',
-            1 => '#^(?:/home/mohammed/magento\\-practice/vendor/(?:magento/(?:module-remote-storage|module-aws-s3|module-catalog|module-require-js|module-backend|module-authorization|module-asynchronous-operations|module-media-storage|module-sales-sequence|module-bundle|module-sales|module-captcha|module-checkout|module-customer|module-integration|module-user|module-deploy|module-config|module-directory|module-store|module-eav|module-ui|module-variable|module-cms|module-email|module-widget|module-catalog-inventory|module-csp|module-theme|module-downloadable|module-rss|module-newsletter|module-wishlist|module-review|module-reports|module-page-cache|module-tax|module-quote|module-inventory-api|module-payment|module-webapi|module-indexer|module-graph-ql|module-catalog-search|module-inventory-sales-api|module-search|module-eav-graph-ql|module-inventory-configuration-api|module-re-captcha-validation-api|module-inventory-catalog-api|module-graph-ql-resolver-cache|module-inventory|module-vault|module-contact|module-shipping|module-advanced-search|module-catalog-graph-ql|module-rule|services-connector|module-gift-message|module-analytics|module-re-captcha-ui|module-instant-purchase|module-inventory-source-selection-api|module-query-xml|module-multishipping|module-media-gallery-api|module-services-id|module-checkout-agreements|module-graph-ql-cache|module-inventory-reservations-api|module-catalog-customer-graph-ql|module-import-export|module-inventory-source-deduction-api|module-catalog-rule|module-customer-graph-ql|module-re-captcha-webapi-api|module-configurable-product|module-inventory-multi-dimensional-indexer-api|module-gift-message-graph-ql|module-sales-inventory|module-inventory-sales|module-quote-graph-ql|module-graph-ql-server|module-sales-rule|module-inventory-indexer|module-msrp|module-payment-services-paypal|module-grouped-product|module-adobe-ims-api|module-admin-graph-ql-server|module-services-id-graph-ql-server|module-catalog-import-export|module-re-captcha-frontend-ui|module-inventory-in-store-pickup-api|module-paypal|module-media-content-api|module-data-exporter|module-login-as-customer-api|module-adobe-stock-client-api|module-inventory-in-store-pickup-shipping-api|module-media-gallery-synchronization-api|module-service-proxy|module-inventory-configuration|module-adobe-ims|module-catalog-url-rewrite|module-services-id-layout|module-security|module-adobe-stock-asset-api|module-inventory-distance-based-source-selection-api|module-inventory-in-store-pickup-sales-api|module-catalog-widget|module-jwt-user-token|module-payment-services-base|module-re-captcha-webapi-graph-ql|module-url-rewrite|module-admin-adobe-ims|module-adobe-stock-image-api|module-inventory-catalog|module-inventory-low-quantity-notification-api|module-media-gallery-metadata-api|module-media-gallery-ui-api|module-page-builder|module-re-captcha-admin-ui|module-re-captcha-webapi-ui|module-sales-graph-ql|module-cookie|module-inventory-admin-ui|module-inventory-catalog-admin-ui|module-inventory-catalog-search|module-inventory-in-store-pickup|module-page-builder-analytics|module-cron|module-media-content-synchronization-api|module-sales-data-exporter|module-store-data-exporter|module-two-factor-auth|module-cms-graph-ql|module-developer|module-elasticsearch|module-inventory-catalog-frontend-ui|module-inventory-export-stock-api|module-inventory-in-store-pickup-quote|module-inventory-in-store-pickup-sales|module-inventory-low-quantity-notification|module-login-as-customer|module-media-gallery|module-media-gallery-ui|module-new-relic-reporting|module-order-cancellation|module-product-alert|module-re-captcha-checkout|module-swagger|module-url-rewrite-graph-ql|module-bundle-import-export|module-payment-services-dashboard|module-saas-common|module-admin-adobe-ims-two-factor-auth|module-adobe-stock-admin-ui|module-adobe-stock-asset|module-adobe-stock-client|module-adobe-stock-image|module-adobe-stock-image-admin-ui|module-application-performance-monitor|module-async-config|module-downloadable-graph-ql|module-encryption-key|module-google-analytics|module-google-gtag|module-login-as-customer-assistance|module-login-as-customer-frontend-ui|module-media-gallery-renditions-api|module-payment-services-paypal-graph-ql|module-payment-services-saas-export|module-re-captcha-version-3-invisible|module-release-notification|module-robots|module-send-friend|module-store-graph-ql|module-swatches|module-weee|module-aws-s3-page-builder|module-backup|module-catalog-page-builder-analytics|module-cms-page-builder-analytics|module-cms-url-rewrite|module-inventory-advanced-checkout|module-inventory-bundle-import-export|module-inventory-bundle-product|module-inventory-bundle-product-admin-ui|module-inventory-bundle-product-indexer|module-inventory-cache|module-inventory-catalog-rule|module-inventory-catalog-search-bundle-product|module-inventory-catalog-search-configurable-product|module-inventory-configurable-product|module-inventory-configurable-product-admin-ui|module-inventory-configurable-product-frontend-ui|module-inventory-configurable-product-indexer|module-inventory-distance-based-source-selection|module-inventory-distance-based-source-selection-admin-ui|module-inventory-elasticsearch|module-inventory-export-stock|module-inventory-graph-ql|module-inventory-grouped-product|module-inventory-grouped-product-admin-ui|module-inventory-grouped-product-indexer|module-inventory-import-export|module-inventory-in-store-pickup-admin-ui|module-inventory-in-store-pickup-frontend|module-inventory-in-store-pickup-graph-ql|module-inventory-in-store-pickup-multishipping|module-inventory-in-store-pickup-quote-graph-ql|module-inventory-in-store-pickup-sales-admin-ui|module-inventory-in-store-pickup-shipping|module-inventory-in-store-pickup-shipping-admin-ui|module-inventory-in-store-pickup-webapi-extension|module-inventory-low-quantity-notification-admin-ui|module-inventory-product-alert|module-inventory-quote-graph-ql|module-inventory-requisition-list|module-inventory-reservation-cli|module-inventory-reservations|module-inventory-sales-admin-ui|module-inventory-sales-async-order|module-inventory-sales-frontend-ui|module-inventory-setup-fixture-generator|module-inventory-shipping|module-inventory-shipping-admin-ui|module-inventory-source-selection|module-inventory-swatches-frontend-ui|module-inventory-visual-merchandiser|module-inventory-wishlist|module-page-builder-admin-analytics|module-page-builder-image-attribute|module-re-captcha-checkout-sales-rule|module-re-captcha-contact|module-re-captcha-customer|module-re-captcha-migration|module-re-captcha-newsletter|module-re-captcha-paypal|module-re-captcha-resend-confirmation-email|module-re-captcha-review|module-re-captcha-send-friend|module-re-captcha-store-pickup|module-re-captcha-user|module-re-captcha-validation|module-re-captcha-version-2-checkbox|module-re-captcha-version-2-invisible|module-re-captcha-webapi-rest|module-re-captcha-wishlist|module-securitytxt|module-translation|module-admin-analytics|module-admin-notification|module-advanced-pricing-import-export|module-amqp|module-application-performance-monitor-new-relic|module-bundle-graph-ql|module-cache-invalidate|module-cardinal-commerce|module-catalog-analytics|module-catalog-cms-graph-ql|module-catalog-inventory-graph-ql|module-catalog-rule-configurable|module-catalog-rule-graph-ql|module-catalog-url-rewrite-graph-ql|module-checkout-agreements-graph-ql|module-cms-url-rewrite-graph-ql|module-compare-list-graph-ql|module-configurable-import-export|module-configurable-product-graph-ql|module-configurable-product-sales|module-contact-graph-ql|module-currency-symbol|module-customer-analytics|module-customer-downloadable-graph-ql|module-customer-import-export|module-dhl|module-directory-graph-ql|module-downloadable-import-export|module-elasticsearch-8|module-fedex|module-google-adwords|module-google-optimizer|module-graph-ql-new-relic|module-grouped-catalog-inventory|module-grouped-import-export|module-grouped-product-graph-ql|module-integration-graph-ql|module-jwt-framework-adapter|module-layered-navigation|module-login-as-customer-admin-ui|module-login-as-customer-graph-ql|module-login-as-customer-log|module-login-as-customer-page-cache|module-login-as-customer-quote|module-login-as-customer-sales|module-marketplace|module-media-content|module-media-content-catalog|module-media-content-cms|module-media-content-synchronization|module-media-content-synchronization-catalog|module-media-content-synchronization-cms|module-media-gallery-catalog|module-media-gallery-catalog-integration|module-media-gallery-catalog-ui|module-media-gallery-cms-ui|module-media-gallery-integration|module-media-gallery-metadata|module-media-gallery-renditions|module-media-gallery-synchronization|module-media-gallery-synchronization-metadata|module-message-queue|module-msrp-configurable-product|module-msrp-grouped-product|module-mysql-mq|module-newsletter-graph-ql|module-offline-payments|module-offline-shipping|module-open-search|module-order-cancellation-graph-ql|module-order-cancellation-ui|module-payment-graph-ql|module-paypal-captcha|module-paypal-graph-ql|module-persistent|module-product-video|module-quote-analytics|module-quote-bundle-options|module-quote-configurable-options|module-quote-downloadable-links|module-related-product-graph-ql|module-review-analytics|module-review-graph-ql|module-sales-analytics|module-sales-rule-graph-ql|module-sample-data|module-send-friend-graph-ql|module-sitemap|module-swagger-webapi|module-swagger-webapi-async|module-swatches-graph-ql|module-swatches-layered-navigation|module-tax-graph-ql|module-tax-import-export|module-theme-graph-ql|module-ups|module-usps|module-vault-graph-ql|module-version|module-webapi-async|module-webapi-security|module-weee-graph-ql|module-wishlist-analytics|module-wishlist-graph-ql)|paypal/(?:module-braintree-core|module-braintree-customer-balance|module-braintree-gift-card|module-braintree-gift-card-account|module-braintree-gift-wrapping|module-braintree-graph-ql|module-braintree-reward)|markshust/(?:magento2-module-disabletwofactorauth))|/home/mohammed/magento\\-practice/app/code/(?:Scandiweb/(?:CustomProductAttributeSet|LatestProductTab|UpdatingContactUsPage|AboutUs)))/tests#',
+            0 => '#^(?:/home/mohammed/magento\\-practice/vendor/(?:magento/(?:module-remote-storage|module-aws-s3|module-catalog|module-require-js|module-backend|module-authorization|module-asynchronous-operations|module-media-storage|module-sales-sequence|module-bundle|module-sales|module-captcha|module-checkout|module-customer|module-integration|module-user|module-deploy|module-config|module-directory|module-store|module-eav|module-ui|module-variable|module-cms|module-email|module-widget|module-catalog-inventory|module-csp|module-theme|module-downloadable|module-rss|module-newsletter|module-wishlist|module-review|module-reports|module-page-cache|module-tax|module-quote|module-inventory-api|module-payment|module-webapi|module-indexer|module-graph-ql|module-catalog-search|module-inventory-sales-api|module-search|module-eav-graph-ql|module-inventory-configuration-api|module-re-captcha-validation-api|module-inventory-catalog-api|module-graph-ql-resolver-cache|module-inventory|module-vault|module-contact|module-shipping|module-advanced-search|module-catalog-graph-ql|module-rule|services-connector|module-gift-message|module-analytics|module-re-captcha-ui|module-instant-purchase|module-inventory-source-selection-api|module-query-xml|module-multishipping|module-media-gallery-api|module-services-id|module-checkout-agreements|module-graph-ql-cache|module-inventory-reservations-api|module-catalog-customer-graph-ql|module-import-export|module-inventory-source-deduction-api|module-catalog-rule|module-customer-graph-ql|module-re-captcha-webapi-api|module-configurable-product|module-inventory-multi-dimensional-indexer-api|module-gift-message-graph-ql|module-sales-inventory|module-inventory-sales|module-quote-graph-ql|module-graph-ql-server|module-sales-rule|module-inventory-indexer|module-msrp|module-payment-services-paypal|module-grouped-product|module-adobe-ims-api|module-admin-graph-ql-server|module-services-id-graph-ql-server|module-catalog-import-export|module-re-captcha-frontend-ui|module-inventory-in-store-pickup-api|module-paypal|module-media-content-api|module-data-exporter|module-login-as-customer-api|module-adobe-stock-client-api|module-inventory-in-store-pickup-shipping-api|module-media-gallery-synchronization-api|module-service-proxy|module-inventory-configuration|module-adobe-ims|module-catalog-url-rewrite|module-services-id-layout|module-security|module-adobe-stock-asset-api|module-inventory-distance-based-source-selection-api|module-inventory-in-store-pickup-sales-api|module-catalog-widget|module-jwt-user-token|module-payment-services-base|module-re-captcha-webapi-graph-ql|module-url-rewrite|module-admin-adobe-ims|module-adobe-stock-image-api|module-inventory-catalog|module-inventory-low-quantity-notification-api|module-media-gallery-metadata-api|module-media-gallery-ui-api|module-page-builder|module-re-captcha-admin-ui|module-re-captcha-webapi-ui|module-sales-graph-ql|module-cookie|module-inventory-admin-ui|module-inventory-catalog-admin-ui|module-inventory-catalog-search|module-inventory-in-store-pickup|module-page-builder-analytics|module-cron|module-media-content-synchronization-api|module-sales-data-exporter|module-store-data-exporter|module-two-factor-auth|module-cms-graph-ql|module-developer|module-elasticsearch|module-inventory-catalog-frontend-ui|module-inventory-export-stock-api|module-inventory-in-store-pickup-quote|module-inventory-in-store-pickup-sales|module-inventory-low-quantity-notification|module-login-as-customer|module-media-gallery|module-media-gallery-ui|module-new-relic-reporting|module-order-cancellation|module-product-alert|module-re-captcha-checkout|module-swagger|module-url-rewrite-graph-ql|module-bundle-import-export|module-payment-services-dashboard|module-saas-common|module-admin-adobe-ims-two-factor-auth|module-adobe-stock-admin-ui|module-adobe-stock-asset|module-adobe-stock-client|module-adobe-stock-image|module-adobe-stock-image-admin-ui|module-application-performance-monitor|module-async-config|module-downloadable-graph-ql|module-encryption-key|module-google-analytics|module-google-gtag|module-login-as-customer-assistance|module-login-as-customer-frontend-ui|module-media-gallery-renditions-api|module-payment-services-paypal-graph-ql|module-payment-services-saas-export|module-re-captcha-version-3-invisible|module-release-notification|module-robots|module-send-friend|module-store-graph-ql|module-swatches|module-weee|module-aws-s3-page-builder|module-backup|module-catalog-page-builder-analytics|module-cms-page-builder-analytics|module-cms-url-rewrite|module-inventory-advanced-checkout|module-inventory-bundle-import-export|module-inventory-bundle-product|module-inventory-bundle-product-admin-ui|module-inventory-bundle-product-indexer|module-inventory-cache|module-inventory-catalog-rule|module-inventory-catalog-search-bundle-product|module-inventory-catalog-search-configurable-product|module-inventory-configurable-product|module-inventory-configurable-product-admin-ui|module-inventory-configurable-product-frontend-ui|module-inventory-configurable-product-indexer|module-inventory-distance-based-source-selection|module-inventory-distance-based-source-selection-admin-ui|module-inventory-elasticsearch|module-inventory-export-stock|module-inventory-graph-ql|module-inventory-grouped-product|module-inventory-grouped-product-admin-ui|module-inventory-grouped-product-indexer|module-inventory-import-export|module-inventory-in-store-pickup-admin-ui|module-inventory-in-store-pickup-frontend|module-inventory-in-store-pickup-graph-ql|module-inventory-in-store-pickup-multishipping|module-inventory-in-store-pickup-quote-graph-ql|module-inventory-in-store-pickup-sales-admin-ui|module-inventory-in-store-pickup-shipping|module-inventory-in-store-pickup-shipping-admin-ui|module-inventory-in-store-pickup-webapi-extension|module-inventory-low-quantity-notification-admin-ui|module-inventory-product-alert|module-inventory-quote-graph-ql|module-inventory-requisition-list|module-inventory-reservation-cli|module-inventory-reservations|module-inventory-sales-admin-ui|module-inventory-sales-async-order|module-inventory-sales-frontend-ui|module-inventory-setup-fixture-generator|module-inventory-shipping|module-inventory-shipping-admin-ui|module-inventory-source-selection|module-inventory-swatches-frontend-ui|module-inventory-visual-merchandiser|module-inventory-wishlist|module-page-builder-admin-analytics|module-page-builder-image-attribute|module-re-captcha-checkout-sales-rule|module-re-captcha-contact|module-re-captcha-customer|module-re-captcha-migration|module-re-captcha-newsletter|module-re-captcha-paypal|module-re-captcha-resend-confirmation-email|module-re-captcha-review|module-re-captcha-send-friend|module-re-captcha-store-pickup|module-re-captcha-user|module-re-captcha-validation|module-re-captcha-version-2-checkbox|module-re-captcha-version-2-invisible|module-re-captcha-webapi-rest|module-re-captcha-wishlist|module-securitytxt|module-translation|module-admin-analytics|module-admin-notification|module-advanced-pricing-import-export|module-amqp|module-application-performance-monitor-new-relic|module-bundle-graph-ql|module-cache-invalidate|module-cardinal-commerce|module-catalog-analytics|module-catalog-cms-graph-ql|module-catalog-inventory-graph-ql|module-catalog-rule-configurable|module-catalog-rule-graph-ql|module-catalog-url-rewrite-graph-ql|module-checkout-agreements-graph-ql|module-cms-url-rewrite-graph-ql|module-compare-list-graph-ql|module-configurable-import-export|module-configurable-product-graph-ql|module-configurable-product-sales|module-contact-graph-ql|module-currency-symbol|module-customer-analytics|module-customer-downloadable-graph-ql|module-customer-import-export|module-dhl|module-directory-graph-ql|module-downloadable-import-export|module-elasticsearch-8|module-fedex|module-google-adwords|module-google-optimizer|module-graph-ql-new-relic|module-grouped-catalog-inventory|module-grouped-import-export|module-grouped-product-graph-ql|module-integration-graph-ql|module-jwt-framework-adapter|module-layered-navigation|module-login-as-customer-admin-ui|module-login-as-customer-graph-ql|module-login-as-customer-log|module-login-as-customer-page-cache|module-login-as-customer-quote|module-login-as-customer-sales|module-marketplace|module-media-content|module-media-content-catalog|module-media-content-cms|module-media-content-synchronization|module-media-content-synchronization-catalog|module-media-content-synchronization-cms|module-media-gallery-catalog|module-media-gallery-catalog-integration|module-media-gallery-catalog-ui|module-media-gallery-cms-ui|module-media-gallery-integration|module-media-gallery-metadata|module-media-gallery-renditions|module-media-gallery-synchronization|module-media-gallery-synchronization-metadata|module-message-queue|module-msrp-configurable-product|module-msrp-grouped-product|module-mysql-mq|module-newsletter-graph-ql|module-offline-payments|module-offline-shipping|module-open-search|module-order-cancellation-graph-ql|module-order-cancellation-ui|module-payment-graph-ql|module-paypal-captcha|module-paypal-graph-ql|module-persistent|module-product-video|module-quote-analytics|module-quote-bundle-options|module-quote-configurable-options|module-quote-downloadable-links|module-related-product-graph-ql|module-review-analytics|module-review-graph-ql|module-sales-analytics|module-sales-rule-graph-ql|module-sample-data|module-send-friend-graph-ql|module-sitemap|module-swagger-webapi|module-swagger-webapi-async|module-swatches-graph-ql|module-swatches-layered-navigation|module-tax-graph-ql|module-tax-import-export|module-theme-graph-ql|module-ups|module-usps|module-vault-graph-ql|module-version|module-webapi-async|module-webapi-security|module-weee-graph-ql|module-wishlist-analytics|module-wishlist-graph-ql)|paypal/(?:module-braintree-core|module-braintree-customer-balance|module-braintree-gift-card|module-braintree-gift-card-account|module-braintree-gift-wrapping|module-braintree-graph-ql|module-braintree-reward)|markshust/(?:magento2-module-disabletwofactorauth))|/home/mohammed/magento\\-practice/app/code/(?:Scandiweb/(?:CustomProductAttributeSet|LatestProductTab|UpdatingContactUsPage|AboutUs|Popup)))/Test#',
+            1 => '#^(?:/home/mohammed/magento\\-practice/vendor/(?:magento/(?:module-remote-storage|module-aws-s3|module-catalog|module-require-js|module-backend|module-authorization|module-asynchronous-operations|module-media-storage|module-sales-sequence|module-bundle|module-sales|module-captcha|module-checkout|module-customer|module-integration|module-user|module-deploy|module-config|module-directory|module-store|module-eav|module-ui|module-variable|module-cms|module-email|module-widget|module-catalog-inventory|module-csp|module-theme|module-downloadable|module-rss|module-newsletter|module-wishlist|module-review|module-reports|module-page-cache|module-tax|module-quote|module-inventory-api|module-payment|module-webapi|module-indexer|module-graph-ql|module-catalog-search|module-inventory-sales-api|module-search|module-eav-graph-ql|module-inventory-configuration-api|module-re-captcha-validation-api|module-inventory-catalog-api|module-graph-ql-resolver-cache|module-inventory|module-vault|module-contact|module-shipping|module-advanced-search|module-catalog-graph-ql|module-rule|services-connector|module-gift-message|module-analytics|module-re-captcha-ui|module-instant-purchase|module-inventory-source-selection-api|module-query-xml|module-multishipping|module-media-gallery-api|module-services-id|module-checkout-agreements|module-graph-ql-cache|module-inventory-reservations-api|module-catalog-customer-graph-ql|module-import-export|module-inventory-source-deduction-api|module-catalog-rule|module-customer-graph-ql|module-re-captcha-webapi-api|module-configurable-product|module-inventory-multi-dimensional-indexer-api|module-gift-message-graph-ql|module-sales-inventory|module-inventory-sales|module-quote-graph-ql|module-graph-ql-server|module-sales-rule|module-inventory-indexer|module-msrp|module-payment-services-paypal|module-grouped-product|module-adobe-ims-api|module-admin-graph-ql-server|module-services-id-graph-ql-server|module-catalog-import-export|module-re-captcha-frontend-ui|module-inventory-in-store-pickup-api|module-paypal|module-media-content-api|module-data-exporter|module-login-as-customer-api|module-adobe-stock-client-api|module-inventory-in-store-pickup-shipping-api|module-media-gallery-synchronization-api|module-service-proxy|module-inventory-configuration|module-adobe-ims|module-catalog-url-rewrite|module-services-id-layout|module-security|module-adobe-stock-asset-api|module-inventory-distance-based-source-selection-api|module-inventory-in-store-pickup-sales-api|module-catalog-widget|module-jwt-user-token|module-payment-services-base|module-re-captcha-webapi-graph-ql|module-url-rewrite|module-admin-adobe-ims|module-adobe-stock-image-api|module-inventory-catalog|module-inventory-low-quantity-notification-api|module-media-gallery-metadata-api|module-media-gallery-ui-api|module-page-builder|module-re-captcha-admin-ui|module-re-captcha-webapi-ui|module-sales-graph-ql|module-cookie|module-inventory-admin-ui|module-inventory-catalog-admin-ui|module-inventory-catalog-search|module-inventory-in-store-pickup|module-page-builder-analytics|module-cron|module-media-content-synchronization-api|module-sales-data-exporter|module-store-data-exporter|module-two-factor-auth|module-cms-graph-ql|module-developer|module-elasticsearch|module-inventory-catalog-frontend-ui|module-inventory-export-stock-api|module-inventory-in-store-pickup-quote|module-inventory-in-store-pickup-sales|module-inventory-low-quantity-notification|module-login-as-customer|module-media-gallery|module-media-gallery-ui|module-new-relic-reporting|module-order-cancellation|module-product-alert|module-re-captcha-checkout|module-swagger|module-url-rewrite-graph-ql|module-bundle-import-export|module-payment-services-dashboard|module-saas-common|module-admin-adobe-ims-two-factor-auth|module-adobe-stock-admin-ui|module-adobe-stock-asset|module-adobe-stock-client|module-adobe-stock-image|module-adobe-stock-image-admin-ui|module-application-performance-monitor|module-async-config|module-downloadable-graph-ql|module-encryption-key|module-google-analytics|module-google-gtag|module-login-as-customer-assistance|module-login-as-customer-frontend-ui|module-media-gallery-renditions-api|module-payment-services-paypal-graph-ql|module-payment-services-saas-export|module-re-captcha-version-3-invisible|module-release-notification|module-robots|module-send-friend|module-store-graph-ql|module-swatches|module-weee|module-aws-s3-page-builder|module-backup|module-catalog-page-builder-analytics|module-cms-page-builder-analytics|module-cms-url-rewrite|module-inventory-advanced-checkout|module-inventory-bundle-import-export|module-inventory-bundle-product|module-inventory-bundle-product-admin-ui|module-inventory-bundle-product-indexer|module-inventory-cache|module-inventory-catalog-rule|module-inventory-catalog-search-bundle-product|module-inventory-catalog-search-configurable-product|module-inventory-configurable-product|module-inventory-configurable-product-admin-ui|module-inventory-configurable-product-frontend-ui|module-inventory-configurable-product-indexer|module-inventory-distance-based-source-selection|module-inventory-distance-based-source-selection-admin-ui|module-inventory-elasticsearch|module-inventory-export-stock|module-inventory-graph-ql|module-inventory-grouped-product|module-inventory-grouped-product-admin-ui|module-inventory-grouped-product-indexer|module-inventory-import-export|module-inventory-in-store-pickup-admin-ui|module-inventory-in-store-pickup-frontend|module-inventory-in-store-pickup-graph-ql|module-inventory-in-store-pickup-multishipping|module-inventory-in-store-pickup-quote-graph-ql|module-inventory-in-store-pickup-sales-admin-ui|module-inventory-in-store-pickup-shipping|module-inventory-in-store-pickup-shipping-admin-ui|module-inventory-in-store-pickup-webapi-extension|module-inventory-low-quantity-notification-admin-ui|module-inventory-product-alert|module-inventory-quote-graph-ql|module-inventory-requisition-list|module-inventory-reservation-cli|module-inventory-reservations|module-inventory-sales-admin-ui|module-inventory-sales-async-order|module-inventory-sales-frontend-ui|module-inventory-setup-fixture-generator|module-inventory-shipping|module-inventory-shipping-admin-ui|module-inventory-source-selection|module-inventory-swatches-frontend-ui|module-inventory-visual-merchandiser|module-inventory-wishlist|module-page-builder-admin-analytics|module-page-builder-image-attribute|module-re-captcha-checkout-sales-rule|module-re-captcha-contact|module-re-captcha-customer|module-re-captcha-migration|module-re-captcha-newsletter|module-re-captcha-paypal|module-re-captcha-resend-confirmation-email|module-re-captcha-review|module-re-captcha-send-friend|module-re-captcha-store-pickup|module-re-captcha-user|module-re-captcha-validation|module-re-captcha-version-2-checkbox|module-re-captcha-version-2-invisible|module-re-captcha-webapi-rest|module-re-captcha-wishlist|module-securitytxt|module-translation|module-admin-analytics|module-admin-notification|module-advanced-pricing-import-export|module-amqp|module-application-performance-monitor-new-relic|module-bundle-graph-ql|module-cache-invalidate|module-cardinal-commerce|module-catalog-analytics|module-catalog-cms-graph-ql|module-catalog-inventory-graph-ql|module-catalog-rule-configurable|module-catalog-rule-graph-ql|module-catalog-url-rewrite-graph-ql|module-checkout-agreements-graph-ql|module-cms-url-rewrite-graph-ql|module-compare-list-graph-ql|module-configurable-import-export|module-configurable-product-graph-ql|module-configurable-product-sales|module-contact-graph-ql|module-currency-symbol|module-customer-analytics|module-customer-downloadable-graph-ql|module-customer-import-export|module-dhl|module-directory-graph-ql|module-downloadable-import-export|module-elasticsearch-8|module-fedex|module-google-adwords|module-google-optimizer|module-graph-ql-new-relic|module-grouped-catalog-inventory|module-grouped-import-export|module-grouped-product-graph-ql|module-integration-graph-ql|module-jwt-framework-adapter|module-layered-navigation|module-login-as-customer-admin-ui|module-login-as-customer-graph-ql|module-login-as-customer-log|module-login-as-customer-page-cache|module-login-as-customer-quote|module-login-as-customer-sales|module-marketplace|module-media-content|module-media-content-catalog|module-media-content-cms|module-media-content-synchronization|module-media-content-synchronization-catalog|module-media-content-synchronization-cms|module-media-gallery-catalog|module-media-gallery-catalog-integration|module-media-gallery-catalog-ui|module-media-gallery-cms-ui|module-media-gallery-integration|module-media-gallery-metadata|module-media-gallery-renditions|module-media-gallery-synchronization|module-media-gallery-synchronization-metadata|module-message-queue|module-msrp-configurable-product|module-msrp-grouped-product|module-mysql-mq|module-newsletter-graph-ql|module-offline-payments|module-offline-shipping|module-open-search|module-order-cancellation-graph-ql|module-order-cancellation-ui|module-payment-graph-ql|module-paypal-captcha|module-paypal-graph-ql|module-persistent|module-product-video|module-quote-analytics|module-quote-bundle-options|module-quote-configurable-options|module-quote-downloadable-links|module-related-product-graph-ql|module-review-analytics|module-review-graph-ql|module-sales-analytics|module-sales-rule-graph-ql|module-sample-data|module-send-friend-graph-ql|module-sitemap|module-swagger-webapi|module-swagger-webapi-async|module-swatches-graph-ql|module-swatches-layered-navigation|module-tax-graph-ql|module-tax-import-export|module-theme-graph-ql|module-ups|module-usps|module-vault-graph-ql|module-version|module-webapi-async|module-webapi-security|module-weee-graph-ql|module-wishlist-analytics|module-wishlist-graph-ql)|paypal/(?:module-braintree-core|module-braintree-customer-balance|module-braintree-gift-card|module-braintree-gift-card-account|module-braintree-gift-wrapping|module-braintree-graph-ql|module-braintree-reward)|markshust/(?:magento2-module-disabletwofactorauth))|/home/mohammed/magento\\-practice/app/code/(?:Scandiweb/(?:CustomProductAttributeSet|LatestProductTab|UpdatingContactUsPage|AboutUs|Popup)))/tests#',
           ),
           'framework' => 
           array (
@@ -265282,6 +265284,312 @@ Line: %line%
         ),
       ),
     ),
+    'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\Delete\\Interceptor' => 
+    array (
+      'context' => 
+      array (
+        '_i_' => 'Magento\\Backend\\App\\Action\\Context',
+      ),
+      'resultPageFactory' => 
+      array (
+        '_i_' => 'Magento\\Framework\\View\\Result\\PageFactory',
+      ),
+      'popupRepository' => 
+      array (
+        '_i_' => 'Scandiweb\\Popup\\Service\\PopupRepository',
+      ),
+    ),
+    'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\Index\\Interceptor' => 
+    array (
+      'context' => 
+      array (
+        '_i_' => 'Magento\\Backend\\App\\Action\\Context',
+      ),
+    ),
+    'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\InlineEdit\\Interceptor' => 
+    array (
+      'context' => 
+      array (
+        '_i_' => 'Magento\\Backend\\App\\Action\\Context',
+      ),
+      'resultPageFactory' => 
+      array (
+        '_i_' => 'Magento\\Framework\\View\\Result\\PageFactory',
+      ),
+      'popupRepository' => 
+      array (
+        '_i_' => 'Scandiweb\\Popup\\Service\\PopupRepository',
+      ),
+    ),
+    'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\MassDelete\\Interceptor' => 
+    array (
+      'context' => 
+      array (
+        '_i_' => 'Magento\\Backend\\App\\Action\\Context',
+      ),
+      'resultPageFactory' => 
+      array (
+        '_i_' => 'Magento\\Framework\\View\\Result\\PageFactory',
+      ),
+      'popupRepository' => 
+      array (
+        '_i_' => 'Scandiweb\\Popup\\Service\\PopupRepository',
+      ),
+    ),
+    'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\MassDisable\\Interceptor' => 
+    array (
+      'context' => 
+      array (
+        '_i_' => 'Magento\\Backend\\App\\Action\\Context',
+      ),
+      'filter' => 
+      array (
+        '_i_' => 'Magento\\Ui\\Component\\MassAction\\Filter',
+      ),
+      'popupCollectionFactory' => 
+      array (
+        '_i_' => 'Scandiweb\\Popup\\Model\\ResourceModel\\Popup\\CollectionFactory',
+      ),
+    ),
+    'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\MassEnable\\Interceptor' => 
+    array (
+      'context' => 
+      array (
+        '_i_' => 'Magento\\Backend\\App\\Action\\Context',
+      ),
+      'filter' => 
+      array (
+        '_i_' => 'Magento\\Ui\\Component\\MassAction\\Filter',
+      ),
+      'popupCollectionFactory' => 
+      array (
+        '_i_' => 'Scandiweb\\Popup\\Model\\ResourceModel\\Popup\\CollectionFactory',
+      ),
+    ),
+    'Scandiweb\\Popup\\Model\\Popup' => 
+    array (
+      'context' => 
+      array (
+        '_i_' => 'Magento\\Framework\\Model\\Context',
+      ),
+      'registry' => 
+      array (
+        '_i_' => 'Magento\\Framework\\Registry',
+      ),
+      'resource' => 
+      array (
+        '_vn_' => true,
+      ),
+      'resourceCollection' => 
+      array (
+        '_vn_' => true,
+      ),
+      'data' => 
+      array (
+        '_v_' => 
+        array (
+        ),
+      ),
+    ),
+    'Scandiweb\\Popup\\Model\\PopupFactory' => 
+    array (
+      'objectManager' => 
+      array (
+        '_i_' => 'Magento\\Framework\\ObjectManagerInterface',
+      ),
+      'instanceName' => 
+      array (
+        '_v_' => '\\Scandiweb\\Popup\\Model\\Popup',
+      ),
+    ),
+    'Scandiweb\\Popup\\Model\\ResourceModel\\Popup' => 
+    array (
+      'context' => 
+      array (
+        '_i_' => 'Magento\\Framework\\Model\\ResourceModel\\Db\\Context',
+      ),
+      'connectionName' => 
+      array (
+        '_vn_' => true,
+      ),
+    ),
+    'Scandiweb\\Popup\\Model\\ResourceModel\\Popup\\CollectionFactory' => 
+    array (
+      'objectManager' => 
+      array (
+        '_i_' => 'Magento\\Framework\\ObjectManagerInterface',
+      ),
+      'instanceName' => 
+      array (
+        '_v_' => '\\Scandiweb\\Popup\\Model\\ResourceModel\\Popup\\Collection',
+      ),
+    ),
+    'Scandiweb\\Popup\\Model\\ResourceModel\\Popup\\Collection\\Interceptor' => 
+    array (
+      'entityFactory' => 
+      array (
+        '_i_' => 'Magento\\Framework\\Data\\Collection\\EntityFactory',
+      ),
+      'logger' => 
+      array (
+        '_i_' => 'Magento\\Framework\\Logger\\LoggerProxy',
+      ),
+      'fetchStrategy' => 
+      array (
+        '_i_' => 'Magento\\Framework\\Data\\Collection\\Db\\FetchStrategy\\Query',
+      ),
+      'eventManager' => 
+      array (
+        '_i_' => 'Magento\\Framework\\Event\\Manager\\Proxy',
+      ),
+      'connection' => 
+      array (
+        '_vn_' => true,
+      ),
+      'resource' => 
+      array (
+        '_vn_' => true,
+      ),
+    ),
+    'Scandiweb\\Popup\\Model\\ResourceModel\\Popup\\Grid\\Collection\\Interceptor' => 
+    array (
+      'entityFactory' => 
+      array (
+        '_i_' => 'Magento\\Framework\\Data\\Collection\\EntityFactory',
+      ),
+      'logger' => 
+      array (
+        '_i_' => 'Magento\\Framework\\Logger\\LoggerProxy',
+      ),
+      'fetchStrategy' => 
+      array (
+        '_i_' => 'Magento\\Framework\\Data\\Collection\\Db\\FetchStrategy\\Query',
+      ),
+      'eventManager' => 
+      array (
+        '_i_' => 'Magento\\Framework\\Event\\Manager\\Proxy',
+      ),
+      'timeZone' => 
+      array (
+        '_i_' => 'Magento\\Framework\\Stdlib\\DateTime\\Timezone',
+      ),
+      'metadataPool' => 
+      array (
+        '_i_' => 'Magento\\Framework\\EntityManager\\MetadataPool',
+      ),
+      'mainTable' => 
+      array (
+        '_v_' => 'scandiweb_popup',
+      ),
+      'resourceModel' => 
+      array (
+        '_v_' => 'Scandiweb\\Popup\\Model\\ResourceModel\\Popup',
+      ),
+      'identifierName' => 
+      array (
+        '_vn_' => true,
+      ),
+      'connectionName' => 
+      array (
+        '_vn_' => true,
+      ),
+    ),
+    'Scandiweb\\Popup\\Service\\PopupRepository' => 
+    array (
+      'popupFactory' => 
+      array (
+        '_i_' => 'Scandiweb\\Popup\\Model\\PopupFactory',
+      ),
+      'popupResource' => 
+      array (
+        '_i_' => 'Scandiweb\\Popup\\Model\\ResourceModel\\Popup',
+      ),
+    ),
+    'Scandiweb\\Popup\\Ui\\Component\\DataProvider' => 
+    array (
+      'name' => 
+      array (
+        '_vn_' => true,
+      ),
+      'primaryFieldName' => 
+      array (
+        '_vn_' => true,
+      ),
+      'requestFieldName' => 
+      array (
+        '_vn_' => true,
+      ),
+      'reporting' => 
+      array (
+        '_i_' => 'Magento\\Framework\\View\\Element\\UiComponent\\DataProvider\\Reporting',
+      ),
+      'searchCriteriaBuilder' => 
+      array (
+        '_ins_' => 'Magento\\Framework\\Api\\Search\\SearchCriteriaBuilder',
+      ),
+      'request' => 
+      array (
+        '_i_' => 'Magento\\Framework\\App\\Request\\Http',
+      ),
+      'filterBuilder' => 
+      array (
+        '_ins_' => 'Magento\\Framework\\Api\\FilterBuilder',
+      ),
+      'meta' => 
+      array (
+        '_v_' => 
+        array (
+        ),
+      ),
+      'data' => 
+      array (
+        '_v_' => 
+        array (
+        ),
+      ),
+      'additionalFilterPool' => 
+      array (
+        '_v_' => 
+        array (
+        ),
+      ),
+    ),
+    'Scandiweb\\Popup\\Ui\\Component\\Listing\\Column\\PopupActions' => 
+    array (
+      'context' => 
+      array (
+        '_i_' => 'Magento\\Framework\\View\\Element\\UiComponent\\Context',
+      ),
+      'uiComponentFactory' => 
+      array (
+        '_i_' => 'Magento\\Framework\\View\\Element\\UiComponentFactory',
+      ),
+      'urlBuilder' => 
+      array (
+        '_i_' => 'Magento\\Framework\\Url',
+      ),
+      'escaper' => 
+      array (
+        '_i_' => 'Magento\\Framework\\Escaper',
+      ),
+      'components' => 
+      array (
+        '_v_' => 
+        array (
+        ),
+      ),
+      'data' => 
+      array (
+        '_v_' => 
+        array (
+        ),
+      ),
+      'editUrl' => 
+      array (
+        '_v_' => 'scandiweb_popup/popup/edit',
+      ),
+    ),
+    'Scandiweb\\Popup\\Ui\\Source\\Listing\\Column\\IsActive' => NULL,
     'Scandiweb\\UpdatingContactUsPage\\Block\\Footer' => 
     array (
       'context' => 
@@ -273491,6 +273799,15 @@ Line: %line%
     'PayPal\\Braintree\\Model\\Vault\\PaymentToken\\GeneratePublicHashInterface' => 'PayPal\\Braintree\\Model\\Vault\\PaymentToken\\GeneratePublicHash',
     'PayPal\\Braintree\\Model\\Vault\\PaymentToken\\SaveInterface' => 'PayPal\\Braintree\\Model\\Vault\\PaymentToken\\Save',
     'Psr\\Log\\LoggerInterface' => 'Magento\\Framework\\Logger\\LoggerProxy',
+    'Scandiweb\\Popup\\Api\\PopupRepositoryInterface' => 'Scandiweb\\Popup\\Service\\PopupRepository',
+    'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\Delete' => 'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\Delete\\Interceptor',
+    'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\Index' => 'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\Index\\Interceptor',
+    'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\InlineEdit' => 'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\InlineEdit\\Interceptor',
+    'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\MassDelete' => 'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\MassDelete\\Interceptor',
+    'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\MassDisable' => 'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\MassDisable\\Interceptor',
+    'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\MassEnable' => 'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\MassEnable\\Interceptor',
+    'Scandiweb\\Popup\\Model\\ResourceModel\\Popup\\Collection' => 'Scandiweb\\Popup\\Model\\ResourceModel\\Popup\\Collection\\Interceptor',
+    'Scandiweb\\Popup\\Model\\ResourceModel\\Popup\\Grid\\Collection' => 'Scandiweb\\Popup\\Model\\ResourceModel\\Popup\\Grid\\Collection\\Interceptor',
     'Symfony\\Component\\Console\\Command\\Command' => 'Symfony\\Component\\Console\\Command\\Command\\Interceptor',
   ),
   'instanceTypes' => 

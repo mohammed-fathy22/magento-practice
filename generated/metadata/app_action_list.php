@@ -1351,4 +1351,10 @@
   'paypal\\braintree\\controller\\paypal\\review' => 'PayPal\\Braintree\\Controller\\Paypal\\Review',
   'paypal\\braintree\\controller\\paypal\\saveshippingmethod' => 'PayPal\\Braintree\\Controller\\Paypal\\SaveShippingMethod',
   'paypal\\braintree\\controller\\webhook\\fraudprotection' => 'PayPal\\Braintree\\Controller\\Webhook\\FraudProtection',
+  'scandiweb\\popup\\controller\\adminhtml\\popup\\delete' => 'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\Delete',
+  'scandiweb\\popup\\controller\\adminhtml\\popup\\index' => 'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\Index',
+  'scandiweb\\popup\\controller\\adminhtml\\popup\\inlineedit' => 'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\InlineEdit',
+  'scandiweb\\popup\\controller\\adminhtml\\popup\\massdelete' => 'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\MassDelete',
+  'scandiweb\\popup\\controller\\adminhtml\\popup\\massdisable' => 'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\MassDisable',
+  'scandiweb\\popup\\controller\\adminhtml\\popup\\massenable' => 'Scandiweb\\Popup\\Controller\\Adminhtml\\Popup\\MassEnable',
 );

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+            id="Scandiweb_Popup::popup"
+            title="Popups"
+            translate="title"
+            module="Scandiweb_Popup"
+            sortOrder="0"
+            parent="Magento_Backend::content_elements"
+            action="scandiweb_popup/popup/index"
+            resource="Scandiweb_Popup::popup"
+        />
+    </menu>
+</config>
