@@ -1,1 +1,0 @@
-/home/mohammed/magento-practice/lib/web/jquery/jquery.validate.js

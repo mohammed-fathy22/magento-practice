@@ -1,1 +1,0 @@
-/home/mohammed/magento-practice/vendor/magento/module-review/view/frontend/web/js/validate-review.js

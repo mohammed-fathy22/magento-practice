@@ -369,6 +369,7 @@ return [
         'Scandiweb_AboutUs' => 1,
         'Scandiweb_CustomProductAttributeSet' => 1,
         'Scandiweb_LatestProductTab' => 1,
+        'Scandiweb_Popup' => 1,
         'Scandiweb_UpdatingContactUsPage' => 1
     ]
 ];

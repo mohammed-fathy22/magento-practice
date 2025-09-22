@@ -18,7 +18,7 @@ class AddAboutUsPage implements DataPatchInterface
     public function __construct(
         protected PageRepositoryInterface $pageRepository,
         protected PageInterfaceFactory $pageFactory,
-        protected  SearchCriteriaBuilder $searchCriteriaBuilder
+        protected SearchCriteriaBuilder $searchCriteriaBuilder
     ) {}
 
     /**
