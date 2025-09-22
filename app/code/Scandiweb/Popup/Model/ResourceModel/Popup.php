@@ -15,4 +15,10 @@ class Popup extends AbstractDb
     {
         $this->_init(self::TABLE_NAME, self::PRIMARY_KEY);
     }
+
+    protected function _beforeSave(\Magento\Framework\Model\AbstractModel $object)
+    {
+        $object->setData('updated_at', 0);
+        return parent::_beforeSave($object);
+    }
 }

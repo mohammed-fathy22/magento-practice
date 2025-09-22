@@ -1336,3 +1336,379 @@ Verify the XML and try again. [] []
 [2025-09-22T07:25:12.728680+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
 [2025-09-22T07:25:16.922177+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
 [2025-09-22T07:25:16.924779+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-09-22T08:59:48.303546+00:00] main.ERROR: Error during compilation
+#0 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/Code/Reader/Decorator/Interceptions.php(85): Magento\Setup\Module\Di\Compiler\Log\Log->report()
+#1 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Operation/InterceptionCache.php(61): Magento\Setup\Module\Di\Code\Reader\Decorator\Interceptions->getList()
+#2 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\InterceptionCache->doOperation()
+#3 /home/mohammed/magento-practice/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process()
+#4 /home/mohammed/magento-practice/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute()
+#5 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#6 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#7 /home/mohammed/magento-practice/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#8 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#9 /home/mohammed/magento-practice/bin/magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2025-09-22T09:24:44.213365+00:00] main.ERROR: Error during compilation
+#0 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/Code/Reader/Decorator/Interceptions.php(85): Magento\Setup\Module\Di\Compiler\Log\Log->report()
+#1 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Operation/InterceptionCache.php(61): Magento\Setup\Module\Di\Code\Reader\Decorator\Interceptions->getList()
+#2 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\InterceptionCache->doOperation()
+#3 /home/mohammed/magento-practice/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process()
+#4 /home/mohammed/magento-practice/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute()
+#5 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#6 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#7 /home/mohammed/magento-practice/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#8 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#9 /home/mohammed/magento-practice/bin/magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2025-09-22T09:25:31.141088+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Model\ResourceModel\Popup\Grid\Collection\Interceptor, Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection::__construct(): Argument #5 ($connection) must be of type ?Magento\Framework\DB\Adapter\AdapterInterface, Magento\Store\Model\StoreManager given, called in /home/mohammed/magento-practice/app/code/Scandiweb/Popup/Model/ResourceModel/Popup/Grid/Collection.php on line 81 [] []
+[2025-09-22T09:25:31.141642+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Model\ResourceModel\Popup\Grid\Collection\Interceptor, Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection::__construct(): Argument #5 ($connection) must be of type ?Magento\Framework\DB\Adapter\AdapterInterface, Magento\Store\Model\StoreManager given, called in /home/mohammed/magento-practice/app/code/Scandiweb/Popup/Model/ResourceModel/Popup/Grid/Collection.php on line 81 [] []
+[2025-09-22T09:26:24.223918+00:00] main.ERROR: Deprecated Functionality: Optional parameter $connection declared before required parameter $resourceModel is implicitly treated as a required parameter in /home/mohammed/magento-practice/app/code/Scandiweb/Popup/Model/ResourceModel/Popup/Grid/Collection.php on line 63
+#0 /home/mohammed/magento-practice/vendor/composer/ClassLoader.php(576): Magento\Framework\App\ErrorHandler->handler()
+#1 /home/mohammed/magento-practice/vendor/composer/ClassLoader.php(576): include()
+#2 /home/mohammed/magento-practice/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Relations/Runtime.php(38): class_exists()
+#5 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(157): Magento\Framework\ObjectManager\Relations\Runtime->has()
+#6 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(180): Magento\Framework\Interception\Config\Config->_inheritInterception()
+#7 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(213): Magento\Framework\Interception\Config\Config->hasPlugins()
+#8 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(190): Magento\Framework\Interception\Config\Config->generateIntercepted()
+#9 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(122): Magento\Framework\Interception\Config\Config->initializeUncompiled()
+#10 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Framework\Interception\Config\Config->__construct()
+#11 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#12 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#13 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#14 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#15 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#16 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#17 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#18 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#19 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#20 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#21 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#22 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#23 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#24 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#25 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/OperationFactory.php(109): Magento\Framework\ObjectManager\ObjectManager->create()
+#26 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(38): Magento\Setup\Module\Di\App\Task\OperationFactory->create()
+#27 /home/mohammed/magento-practice/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(188): Magento\Setup\Module\Di\App\Task\Manager->addOperation()
+#28 /home/mohammed/magento-practice/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute()
+#29 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#30 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#31 /home/mohammed/magento-practice/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#32 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#33 /home/mohammed/magento-practice/bin/magento(23): Symfony\Component\Console\Application->run()
+#34 {main} [] []
+[2025-09-22T09:28:02.820198+00:00] main.ERROR: Error during compilation
+#0 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/Code/Reader/Decorator/Interceptions.php(85): Magento\Setup\Module\Di\Compiler\Log\Log->report()
+#1 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Operation/InterceptionCache.php(61): Magento\Setup\Module\Di\Code\Reader\Decorator\Interceptions->getList()
+#2 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\InterceptionCache->doOperation()
+#3 /home/mohammed/magento-practice/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process()
+#4 /home/mohammed/magento-practice/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute()
+#5 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#6 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#7 /home/mohammed/magento-practice/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#8 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#9 /home/mohammed/magento-practice/bin/magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2025-09-22T09:35:26.339780+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Model\ResourceModel\Popup\Grid\Collection\Interceptor, Scandiweb\Popup\Model\ResourceModel\Popup\Grid\Collection::__construct(): Argument #11 ($resource) must be of type ?Magento\Framework\Model\ResourceModel\Db\AbstractDb, string given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Model/ResourceModel/Popup/Grid/Collection/Interceptor.php on line 14 [] []
+[2025-09-22T09:35:26.340337+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Model\ResourceModel\Popup\Grid\Collection\Interceptor, Scandiweb\Popup\Model\ResourceModel\Popup\Grid\Collection::__construct(): Argument #11 ($resource) must be of type ?Magento\Framework\Model\ResourceModel\Db\AbstractDb, string given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Model/ResourceModel/Popup/Grid/Collection/Interceptor.php on line 14 [] []
+[2025-09-22T09:37:31.057154+00:00] main.ERROR: Deprecated Functionality: Optional parameter $mainTable declared before required parameter $metadataPool is implicitly treated as a required parameter in /home/mohammed/magento-practice/app/code/Scandiweb/Popup/Model/ResourceModel/Popup/Grid/Collection.php on line 62
+#0 /home/mohammed/magento-practice/vendor/composer/ClassLoader.php(576): Magento\Framework\App\ErrorHandler->handler()
+#1 /home/mohammed/magento-practice/vendor/composer/ClassLoader.php(576): include()
+#2 /home/mohammed/magento-practice/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Relations/Runtime.php(38): class_exists()
+#5 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(157): Magento\Framework\ObjectManager\Relations\Runtime->has()
+#6 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(180): Magento\Framework\Interception\Config\Config->_inheritInterception()
+#7 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(213): Magento\Framework\Interception\Config\Config->hasPlugins()
+#8 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(190): Magento\Framework\Interception\Config\Config->generateIntercepted()
+#9 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(122): Magento\Framework\Interception\Config\Config->initializeUncompiled()
+#10 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Framework\Interception\Config\Config->__construct()
+#11 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#12 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#13 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#14 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#15 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#16 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#17 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#18 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#19 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#20 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#21 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#22 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#23 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#24 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#25 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/OperationFactory.php(109): Magento\Framework\ObjectManager\ObjectManager->create()
+#26 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(38): Magento\Setup\Module\Di\App\Task\OperationFactory->create()
+#27 /home/mohammed/magento-practice/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(188): Magento\Setup\Module\Di\App\Task\Manager->addOperation()
+#28 /home/mohammed/magento-practice/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute()
+#29 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#30 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#31 /home/mohammed/magento-practice/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#32 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#33 /home/mohammed/magento-practice/bin/magento(23): Symfony\Component\Console\Application->run()
+#34 {main} [] []
+[2025-09-22T09:51:32.440782+00:00] main.ERROR: Error during compilation
+#0 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/Code/Reader/Decorator/Interceptions.php(85): Magento\Setup\Module\Di\Compiler\Log\Log->report()
+#1 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Operation/InterceptionCache.php(61): Magento\Setup\Module\Di\Code\Reader\Decorator\Interceptions->getList()
+#2 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\InterceptionCache->doOperation()
+#3 /home/mohammed/magento-practice/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process()
+#4 /home/mohammed/magento-practice/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute()
+#5 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#6 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#7 /home/mohammed/magento-practice/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#8 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#9 /home/mohammed/magento-practice/bin/magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2025-09-22T09:55:06.760245+00:00] main.ERROR: Error during compilation
+#0 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/Code/Reader/Decorator/Interceptions.php(85): Magento\Setup\Module\Di\Compiler\Log\Log->report()
+#1 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Operation/InterceptionCache.php(61): Magento\Setup\Module\Di\Code\Reader\Decorator\Interceptions->getList()
+#2 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\InterceptionCache->doOperation()
+#3 /home/mohammed/magento-practice/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process()
+#4 /home/mohammed/magento-practice/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute()
+#5 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#6 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#7 /home/mohammed/magento-practice/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#8 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#9 /home/mohammed/magento-practice/bin/magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2025-09-22T09:57:50.800650+00:00] main.ERROR: Deprecated Functionality: Optional parameter $mainTable declared before required parameter $metadataPool is implicitly treated as a required parameter in /home/mohammed/magento-practice/app/code/Scandiweb/Popup/Model/ResourceModel/Popup/Grid/Collection.php on line 23
+#0 /home/mohammed/magento-practice/vendor/composer/ClassLoader.php(576): Magento\Framework\App\ErrorHandler->handler()
+#1 /home/mohammed/magento-practice/vendor/composer/ClassLoader.php(576): include()
+#2 /home/mohammed/magento-practice/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Relations/Runtime.php(38): class_exists()
+#5 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(157): Magento\Framework\ObjectManager\Relations\Runtime->has()
+#6 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(180): Magento\Framework\Interception\Config\Config->_inheritInterception()
+#7 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(213): Magento\Framework\Interception\Config\Config->hasPlugins()
+#8 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(190): Magento\Framework\Interception\Config\Config->generateIntercepted()
+#9 /home/mohammed/magento-practice/vendor/magento/framework/Interception/Config/Config.php(122): Magento\Framework\Interception\Config\Config->initializeUncompiled()
+#10 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Framework\Interception\Config\Config->__construct()
+#11 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#12 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#13 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#14 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#15 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#16 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#17 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#18 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(73): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#19 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#20 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#21 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#22 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#23 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#24 /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/ObjectManager.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#25 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/OperationFactory.php(109): Magento\Framework\ObjectManager\ObjectManager->create()
+#26 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(38): Magento\Setup\Module\Di\App\Task\OperationFactory->create()
+#27 /home/mohammed/magento-practice/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(188): Magento\Setup\Module\Di\App\Task\Manager->addOperation()
+#28 /home/mohammed/magento-practice/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute()
+#29 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#30 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#31 /home/mohammed/magento-practice/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#32 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#33 /home/mohammed/magento-practice/bin/magento(23): Symfony\Component\Console\Application->run()
+#34 {main} [] []
+[2025-09-22T10:00:27.527670+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:00:28.701826+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-09-22T10:00:28.702840+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-09-22T10:00:55.954714+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:00:56.783724+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-09-22T10:00:56.784029+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-09-22T10:06:35.761483+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:06:36.573286+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-09-22T10:06:36.573888+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-09-22T10:07:11.526568+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:07:12.409265+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-09-22T10:07:12.409856+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-09-22T10:13:09.250030+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:13:10.251103+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-09-22T10:13:10.251749+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-09-22T10:13:55.533576+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:13:56.377546+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-09-22T10:13:56.378115+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-09-22T10:14:14.685032+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:14:29.868902+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:14:32.305738+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:15:44.487223+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:15:44.655070+00:00] main.ERROR: Class "Scandiweb\Popup\Ui\Component\Listing\Column\PopupActions" does not exist [] []
+[2025-09-22T10:15:45.026942+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:15:45.271539+00:00] main.ERROR: Class "Scandiweb\Popup\Ui\Component\Listing\Column\PopupActions" does not exist [] []
+[2025-09-22T10:17:26.820704+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:17:26.981886+00:00] main.ERROR: Class "Scandiweb\Popup\Ui\Component\Listing\Column\PopupActions" does not exist [] []
+[2025-09-22T10:18:43.016010+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:32:19.924703+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:40:30.792259+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:41:12.098175+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:41:42.147579+00:00] main.ERROR: Warning: file_get_contents(/home/mohammed/magento-practice/app/code/Scandiweb/Popup/Ui/Source/Listing/Column/IsActive.php): Failed to open stream: No such file or directory in /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/Code/Scanner/PhpScanner.php on line 253
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler()
+#1 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/Code/Scanner/PhpScanner.php(253): file_get_contents()
+#2 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/Code/Scanner/PhpScanner.php(180): Magento\Setup\Module\Di\Code\Scanner\PhpScanner->getDeclaredClasses()
+#3 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Operation/ApplicationCodeGenerator.php(71): Magento\Setup\Module\Di\Code\Scanner\PhpScanner->collectEntities()
+#4 /home/mohammed/magento-practice/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\ApplicationCodeGenerator->doOperation()
+#5 /home/mohammed/magento-practice/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process()
+#6 /home/mohammed/magento-practice/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute()
+#7 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#8 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#9 /home/mohammed/magento-practice/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#10 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#11 /home/mohammed/magento-practice/bin/magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2025-09-22T10:42:50.738245+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:43:04.468758+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T10:43:12.704985+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T11:00:09.801370+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T11:04:15.246701+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T11:05:12.742197+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T11:06:58.226770+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T11:07:14.841097+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T11:09:38.487692+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T11:09:38.667859+00:00] main.ERROR: Missing required argument $editUrl of Scandiweb\Popup\Ui\Component\Listing\Column\PopupActions. [] []
+[2025-09-22T11:10:23.844617+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T11:10:24.003828+00:00] main.ERROR: Missing required argument $editUrl of Scandiweb\Popup\Ui\Component\Listing\Column\PopupActions. [] []
+[2025-09-22T11:11:44.347919+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:13:41.393415+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:13:47.850294+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:13:55.167533+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:14:15.325534+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:14:20.138316+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:14:22.431524+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:14:25.744613+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:14:32.974900+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:15:16.942320+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:15:22.563571+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:15:27.411171+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:15:38.138254+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:16:00.982772+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:16:07.608863+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:16:09.448400+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:16:18.150835+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:16:20.149801+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:16:31.392767+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:16:33.553474+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:30:21.997061+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:30:30.654286+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:30:32.817053+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:30:40.125426+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:33:08.170673+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:33:43.938390+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:33:57.720394+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:33:59.689729+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:36:33.391639+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:36:35.803167+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:36:39.188821+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:36:41.129031+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:36:45.652356+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:36:52.598679+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:36:59.645144+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:45:18.371008+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:46:46.302713+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:48:46.825976+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:48:48.639590+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:48:59.227239+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:51:34.570274+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:51:36.304729+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:51:42.370760+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:53:01.074824+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:53:07.610892+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:54:42.591685+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:54:47.031115+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:55:41.264290+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:56:27.362630+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T12:59:42.228211+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Service\PopupRepository, Too few arguments to function Scandiweb\Popup\Service\PopupRepository::__construct(), 2 passed in /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 3 expected [] []
+[2025-09-22T12:59:42.229082+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Service\PopupRepository, Too few arguments to function Scandiweb\Popup\Service\PopupRepository::__construct(), 2 passed in /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 3 expected [] []
+[2025-09-22T13:04:59.849042+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Service\PopupRepository, Too few arguments to function Scandiweb\Popup\Service\PopupRepository::__construct(), 2 passed in /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 3 expected [] []
+[2025-09-22T13:04:59.849629+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Service\PopupRepository, Too few arguments to function Scandiweb\Popup\Service\PopupRepository::__construct(), 2 passed in /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 3 expected [] []
+[2025-09-22T13:10:06.873607+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Service\PopupRepository, Too few arguments to function Scandiweb\Popup\Service\PopupRepository::__construct(), 2 passed in /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 3 expected [] []
+[2025-09-22T13:10:06.874224+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Service\PopupRepository, Too few arguments to function Scandiweb\Popup\Service\PopupRepository::__construct(), 2 passed in /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 3 expected [] []
+[2025-09-22T13:10:08.139874+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:10:14.208959+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Service\PopupRepository, Too few arguments to function Scandiweb\Popup\Service\PopupRepository::__construct(), 2 passed in /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 3 expected [] []
+[2025-09-22T13:10:14.209541+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Service\PopupRepository, Too few arguments to function Scandiweb\Popup\Service\PopupRepository::__construct(), 2 passed in /home/mohammed/magento-practice/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 3 expected [] []
+[2025-09-22T13:14:13.046578+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:14:20.264785+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:14:22.975506+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:14:34.100706+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:18:47.039148+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:18:53.081055+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDelete\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDelete::__construct(): Argument #2 ($resultPageFactory) must be of type Magento\Framework\View\Result\PageFactory, Magento\Framework\Controller\Result\JsonFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDelete/Interceptor.php on line 14 [] []
+[2025-09-22T13:18:53.081705+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDelete\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDelete::__construct(): Argument #2 ($resultPageFactory) must be of type Magento\Framework\View\Result\PageFactory, Magento\Framework\Controller\Result\JsonFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDelete/Interceptor.php on line 14 [] []
+[2025-09-22T13:21:05.924934+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDelete\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDelete::__construct(): Argument #2 ($resultPageFactory) must be of type Magento\Framework\View\Result\PageFactory, Magento\Framework\Controller\Result\JsonFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDelete/Interceptor.php on line 14 [] []
+[2025-09-22T13:21:05.925773+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDelete\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDelete::__construct(): Argument #2 ($resultPageFactory) must be of type Magento\Framework\View\Result\PageFactory, Magento\Framework\Controller\Result\JsonFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDelete/Interceptor.php on line 14 [] []
+[2025-09-22T13:25:02.090033+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:25:08.600084+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:25:15.409767+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:25:18.824163+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:25:26.522464+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:25:37.214499+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:25:39.476245+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:25:44.688157+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:25:51.061594+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T13:25:53.160062+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:01:13.894958+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:01:18.365610+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:01:18.366174+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:04:47.565231+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:04:47.565739+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:06:38.715663+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:06:38.716165+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:06:41.411420+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:06:41.411787+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:11:41.850805+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:11:41.851548+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:11:57.589360+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:11:57.589776+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:11:59.078171+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:12:05.297013+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:12:05.297751+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:17:02.829279+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:17:02.829850+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassDisable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDisable/Interceptor.php on line 14 [] []
+[2025-09-22T14:20:47.578556+00:00] main.ERROR: Command "setup:di:up" is not defined.
+
+Did you mean one of these?
+    cache:disable
+    customer:hash:upgrade
+    dev:di:info
+    encryption:payment-data:update
+    indexer:set-dimensions-mode
+    indexer:show-dimensions-mode
+    maintenance:disable
+    module:disable
+    setup:db-data:upgrade
+    setup:db-schema:upgrade
+    setup:di:compile
+#0 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find()
+#1 /home/mohammed/magento-practice/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#2 /home/mohammed/magento-practice/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#3 /home/mohammed/magento-practice/bin/magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2025-09-22T14:22:10.012220+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:22:15.720498+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:22:27.583655+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:22:30.009257+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:25:15.479303+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:26:21.800668+00:00] main.CRITICAL: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassEnable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassEnable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassEnable/Interceptor.php on line 14 [] []
+[2025-09-22T14:26:21.801302+00:00] main.ERROR: Type Error occurred when creating object: Scandiweb\Popup\Controller\Adminhtml\Popup\MassEnable\Interceptor, Scandiweb\Popup\Controller\Adminhtml\Popup\MassEnable::__construct(): Argument #2 ($filter) must be of type Magento\Ui\Component\MassAction\Filter, Magento\Framework\View\Result\PageFactory given, called in /home/mohammed/magento-practice/generated/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassEnable/Interceptor.php on line 14 [] []
+[2025-09-22T14:27:18.510141+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:28:20.518947+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:28:27.117029+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:28:49.085750+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:28:51.202649+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:29:45.630171+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:29:50.823004+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:32:23.245797+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:32:32.717938+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:32:39.329348+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:32:51.377746+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:33:04.037805+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:39:56.930521+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:40:04.731553+00:00] main.ERROR: Warning: foreach() argument must be of type array|object, int given in /home/mohammed/magento-practice/app/code/Scandiweb/Popup/Controller/Adminhtml/Popup/MassDelete.php on line 51 [] []
+[2025-09-22T14:44:24.875107+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T14:44:33.697591+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T15:24:52.290581+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T15:27:18.124433+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T15:27:56.627122+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T15:28:03.967054+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T15:39:06.656796+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T15:39:08.711087+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T15:39:27.820427+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T15:40:07.949085+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T15:40:42.386916+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-22T15:40:49.991936+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
