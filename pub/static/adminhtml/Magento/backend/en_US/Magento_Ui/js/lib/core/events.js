@@ -1,0 +1,1 @@
+/home/mohammed/magento-practice/vendor/magento/module-ui/view/base/web/js/lib/core/events.js
