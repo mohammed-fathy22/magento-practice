@@ -1,0 +1,1 @@
+/home/mohammed/magento-practice/vendor/magento/module-variable/view/adminhtml/web/js/custom-directive-generator.js
