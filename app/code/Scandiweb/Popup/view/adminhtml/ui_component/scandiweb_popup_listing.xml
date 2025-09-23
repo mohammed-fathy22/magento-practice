@@ -34,7 +34,7 @@
         <aclResource>Scandiweb_Popup::popup</aclResource>
         <dataProvider class="Scandiweb\Popup\Ui\Component\DataProvider" name="scandiweb_popup_listing_data_source">
             <settings>
-                <requestFieldName>id</requestFieldName>
+                <requestFieldName>popup_id</requestFieldName>
                 <primaryFieldName>popup_id</primaryFieldName>
             </settings>
         </dataProvider>
